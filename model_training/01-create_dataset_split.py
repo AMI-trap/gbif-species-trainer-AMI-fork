@@ -65,6 +65,7 @@ def create_dataset_split(args):
         if os.path.isdir(root_dir + "/" + family + "/" + genus + "/" + species):
             image_data = glob.glob(
                 root_dir
+                + "/"
                 + family
                 + "/"
                 + genus
