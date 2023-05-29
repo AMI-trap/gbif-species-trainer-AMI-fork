@@ -19,6 +19,7 @@ dependencies:
   - pre-commit
   - tqdm
   - wandb
+  - webdataset
   - pip:
     - pygbif
     - torchsummary

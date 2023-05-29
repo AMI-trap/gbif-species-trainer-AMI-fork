@@ -1,0 +1,3963 @@
+{
+    "Note": "The 0th index is genus and 1st index is family",
+    "Cossus cossus": [
+        "Cossus",
+        "Cossidae"
+    ],
+    "Phragmataecia castaneae": [
+        "Phragmataecia",
+        "Cossidae"
+    ],
+    "Zeuzera pyrina": [
+        "Zeuzera",
+        "Cossidae"
+    ],
+    "Achlya flavicornis": [
+        "Achlya",
+        "Drepanidae"
+    ],
+    "Cilix glaucata": [
+        "Cilix",
+        "Drepanidae"
+    ],
+    "Cymatophorina diluta": [
+        "Cymatophorina",
+        "Drepanidae"
+    ],
+    "Drepana curvatula": [
+        "Drepana",
+        "Drepanidae"
+    ],
+    "Drepana falcataria": [
+        "Drepana",
+        "Drepanidae"
+    ],
+    "Falcaria lacertinaria": [
+        "Falcaria",
+        "Drepanidae"
+    ],
+    "Habrosyne pyritoides": [
+        "Habrosyne",
+        "Drepanidae"
+    ],
+    "Ochropacha duplaris": [
+        "Ochropacha",
+        "Drepanidae"
+    ],
+    "Polyploca ridens": [
+        "Polyploca",
+        "Drepanidae"
+    ],
+    "Sabra harpagula": [
+        "Sabra",
+        "Drepanidae"
+    ],
+    "Tethea ocularis": [
+        "Tethea",
+        "Drepanidae"
+    ],
+    "Tethea or": [
+        "Tethea",
+        "Drepanidae"
+    ],
+    "Tetheella fluctuosa": [
+        "Tetheella",
+        "Drepanidae"
+    ],
+    "Thyatira batis": [
+        "Thyatira",
+        "Drepanidae"
+    ],
+    "Watsonalla binaria": [
+        "Watsonalla",
+        "Drepanidae"
+    ],
+    "Watsonalla cultraria": [
+        "Watsonalla",
+        "Drepanidae"
+    ],
+    "Endromis versicolora": [
+        "Endromis",
+        "Endromidae"
+    ],
+    "Amata phegea": [
+        "Amata",
+        "Erebidae"
+    ],
+    "Anomis sabulifera": [
+        "Anomis",
+        "Erebidae"
+    ],
+    "Antichloris caca": [
+        "Antichloris",
+        "Erebidae"
+    ],
+    "Antichloris eriphia": [
+        "Antichloris",
+        "Erebidae"
+    ],
+    "Antichloris viridis": [
+        "Antichloris",
+        "Erebidae"
+    ],
+    "Arctia caja": [
+        "Arctia",
+        "Erebidae"
+    ],
+    "Arctia villica": [
+        "Arctia",
+        "Erebidae"
+    ],
+    "Arctornis l-nigrum": [
+        "Arctornis",
+        "Erebidae"
+    ],
+    "Atolmis rubricollis": [
+        "Atolmis",
+        "Erebidae"
+    ],
+    "Callimorpha dominula": [
+        "Panaxia",
+        "Erebidae"
+    ],
+    "Callistege mi": [
+        "Callistege",
+        "Erebidae"
+    ],
+    "Calliteara pudibunda": [
+        "Calliteara",
+        "Erebidae"
+    ],
+    "Catephia alchymista": [
+        "Catephia",
+        "Erebidae"
+    ],
+    "Catocala coniuncta": [
+        "Catocala",
+        "Erebidae"
+    ],
+    "Catocala electa": [
+        "Catocala",
+        "Erebidae"
+    ],
+    "Catocala elocata": [
+        "Catocala",
+        "Erebidae"
+    ],
+    "Catocala fraxini": [
+        "Catocala",
+        "Erebidae"
+    ],
+    "Catocala nupta": [
+        "Catocala",
+        "Erebidae"
+    ],
+    "Catocala nymphagoga": [
+        "Catocala",
+        "Erebidae"
+    ],
+    "Catocala promissa": [
+        "Catocala",
+        "Erebidae"
+    ],
+    "Catocala sponsa": [
+        "Catocala",
+        "Erebidae"
+    ],
+    "Clytie illunaris": [
+        "Clytie",
+        "Erebidae"
+    ],
+    "Colobochyla salicalis": [
+        "Colobochyla",
+        "Erebidae"
+    ],
+    "Coscinia cribraria": [
+        "Coscinia",
+        "Erebidae"
+    ],
+    "Coscinia striata": [
+        "Coscinia",
+        "Erebidae"
+    ],
+    "Cybosia mesomella": [
+        "Cybosia",
+        "Erebidae"
+    ],
+    "Diacrisia sannio": [
+        "Spilosoma",
+        "Erebidae"
+    ],
+    "Diaphora mendica": [
+        "Spilosoma",
+        "Erebidae"
+    ],
+    "Dicallomera fascelina": [
+        "Calliteara",
+        "Erebidae"
+    ],
+    "Dysauxes ancilla": [
+        "Dysauxes",
+        "Erebidae"
+    ],
+    "Dysgonia algira": [
+        "Dysgonia",
+        "Erebidae"
+    ],
+    "Eilema caniola": [
+        "Eilema",
+        "Erebidae"
+    ],
+    "Eilema complana": [
+        "Eilema",
+        "Erebidae"
+    ],
+    "Eilema depressa": [
+        "Eilema",
+        "Erebidae"
+    ],
+    "Eilema griseola": [
+        "Eilema",
+        "Erebidae"
+    ],
+    "Eilema lurideola": [
+        "Eilema",
+        "Erebidae"
+    ],
+    "Eilema pygmaeola": [
+        "Eilema",
+        "Erebidae"
+    ],
+    "Eilema sororcula": [
+        "Eilema",
+        "Erebidae"
+    ],
+    "Eublemma minutata": [
+        "Eublemma",
+        "Noctuidae"
+    ],
+    "Eublemma ostrina": [
+        "Eublemma",
+        "Noctuidae"
+    ],
+    "Eublemma parva": [
+        "Eublemma",
+        "Noctuidae"
+    ],
+    "Eublemma purpurina": [
+        "Eublemma",
+        "Noctuidae"
+    ],
+    "Euchromia lethe": [
+        "Euchromia",
+        "Erebidae"
+    ],
+    "Euclidia glyphica": [
+        "Euclidia",
+        "Erebidae"
+    ],
+    "Euplagia quadripunctaria": [
+        "Panaxia",
+        "Erebidae"
+    ],
+    "Euproctis chrysorrhoea": [
+        "Euproctis",
+        "Erebidae"
+    ],
+    "Euproctis similis": [
+        "Euproctis",
+        "Erebidae"
+    ],
+    "Grammodes bifasciata": [
+        "Grammodes",
+        "Erebidae"
+    ],
+    "Grammodes stolida": [
+        "Grammodes",
+        "Erebidae"
+    ],
+    "Halysidota moeschleri": [
+        "Halysidota",
+        "Erebidae"
+    ],
+    "Herminia grisealis": [
+        "Herminia",
+        "Erebidae"
+    ],
+    "Herminia tarsicrinalis": [
+        "Herminia",
+        "Erebidae"
+    ],
+    "Herminia tarsipennalis": [
+        "Herminia",
+        "Erebidae"
+    ],
+    "Hypena crassalis": [
+        "Hypena",
+        "Erebidae"
+    ],
+    "Hypena lividalis": [
+        "Hypena",
+        "Erebidae"
+    ],
+    "Hypena obesalis": [
+        "Hypena",
+        "Erebidae"
+    ],
+    "Hypena obsitalis": [
+        "Hypena",
+        "Erebidae"
+    ],
+    "Hypena proboscidalis": [
+        "Hypena",
+        "Erebidae"
+    ],
+    "Hypena rostralis": [
+        "Hypena",
+        "Erebidae"
+    ],
+    "Hypenodes humidalis": [
+        "Hypenodes",
+        "Erebidae"
+    ],
+    "Hypercompe scribonia": [
+        "Hypercompe",
+        "Erebidae"
+    ],
+    "Hyphantria cunea": [
+        "Hyphantria",
+        "Erebidae"
+    ],
+    "Hyphoraia testudinaria": [
+        "Hyphoraia",
+        "Erebidae"
+    ],
+    "Idia aemula": [
+        "Idia",
+        "Erebidae"
+    ],
+    "Idia lubricalis": [
+        "Idia",
+        "Erebidae"
+    ],
+    "Laelia coenosa": [
+        "Laelia",
+        "Erebidae"
+    ],
+    "Laspeyria flexula": [
+        "Laspeyria",
+        "Erebidae"
+    ],
+    "Leucoma salicis": [
+        "Leucoma",
+        "Erebidae"
+    ],
+    "Lithosia quadra": [
+        "Lithosia",
+        "Erebidae"
+    ],
+    "Lygephila craccae": [
+        "Lygephila",
+        "Erebidae"
+    ],
+    "Lygephila pastinum": [
+        "Lygephila",
+        "Erebidae"
+    ],
+    "Lymantria dispar": [
+        "Lymantria",
+        "Erebidae"
+    ],
+    "Lymantria monacha": [
+        "Lymantria",
+        "Erebidae"
+    ],
+    "Macrochilo cribrumalis": [
+        "Macrochilo",
+        "Erebidae"
+    ],
+    "Miltochrista miniata": [
+        "Miltochrista",
+        "Erebidae"
+    ],
+    "Minucia lunaris": [
+        "Minucia",
+        "Erebidae"
+    ],
+    "Nudaria mundana": [
+        "Nudaria",
+        "Erebidae"
+    ],
+    "Ophiusa tirhaca": [
+        "Ophiusa",
+        "Erebidae"
+    ],
+    "Orgyia antiqua": [
+        "Orgyia",
+        "Erebidae"
+    ],
+    "Orgyia recens": [
+        "Orgyia",
+        "Erebidae"
+    ],
+    "Pandesma robusta": [
+        "Pandesma",
+        "Erebidae"
+    ],
+    "Paracolax tristalis": [
+        "Paracolax",
+        "Erebidae"
+    ],
+    "Parascotia fuliginaria": [
+        "Parascotia",
+        "Erebidae"
+    ],
+    "Parasemia plantaginis": [
+        "Parasemia",
+        "Erebidae"
+    ],
+    "Pechipogo plumigeralis": [
+        "Pechipogo",
+        "Erebidae"
+    ],
+    "Pechipogo strigilata": [
+        "Pechipogo",
+        "Erebidae"
+    ],
+    "Pelosia muscerda": [
+        "Pelosia",
+        "Erebidae"
+    ],
+    "Pelosia obtusa": [
+        "Pelosia",
+        "Erebidae"
+    ],
+    "Phragmatobia fuliginosa": [
+        "Phragmatobia",
+        "Erebidae"
+    ],
+    "Phytometra viridaria": [
+        "Phytometra",
+        "Erebidae"
+    ],
+    "Pyrrharctia isabella": [
+        "Pyrrharctia",
+        "Erebidae"
+    ],
+    "Rivula sericealis": [
+        "Rivula",
+        "Erebidae"
+    ],
+    "Schrankia costaestrigalis": [
+        "Schrankia",
+        "Erebidae"
+    ],
+    "Schrankia intermedialis": [
+        "Schrankia",
+        "Erebidae"
+    ],
+    "Schrankia taenialis": [
+        "Schrankia",
+        "Erebidae"
+    ],
+    "Scoliopteryx libatrix": [
+        "Scoliopteryx",
+        "Erebidae"
+    ],
+    "Setina irrorella": [
+        "Setina",
+        "Erebidae"
+    ],
+    "Spilosoma lubricipeda": [
+        "Spilosoma",
+        "Erebidae"
+    ],
+    "Spilosoma lutea": [
+        "Spilosoma",
+        "Erebidae"
+    ],
+    "Spilosoma urticae": [
+        "Spilosoma",
+        "Erebidae"
+    ],
+    "Tathorhynchus exsiccata": [
+        "Tathorhynchus",
+        "Noctuidae"
+    ],
+    "Thumatha senex": [
+        "Thumatha",
+        "Erebidae"
+    ],
+    "Trisateles emortualis": [
+        "Trisateles",
+        "Erebidae"
+    ],
+    "Tyria jacobaeae": [
+        "Tyria",
+        "Erebidae"
+    ],
+    "Utetheisa ornatrix": [
+        "Utetheisa",
+        "Erebidae"
+    ],
+    "Utetheisa pulchella": [
+        "Utetheisa",
+        "Erebidae"
+    ],
+    "Zanclognatha lunalis": [
+        "Zanclognatha",
+        "Erebidae"
+    ],
+    "Zanclognatha zelleralis": [
+        "Zanclognatha",
+        "Erebidae"
+    ],
+    "Abraxas grossulariata": [
+        "Abraxas",
+        "Geometridae"
+    ],
+    "Abraxas pantaria": [
+        "Abraxas",
+        "Geometridae"
+    ],
+    "Abraxas sylvata": [
+        "Abraxas",
+        "Geometridae"
+    ],
+    "Acasis viretata": [
+        "Acasis",
+        "Geometridae"
+    ],
+    "Adactylotis contaminaria": [
+        "Adactylotis",
+        "Geometridae"
+    ],
+    "Aethalura punctulata": [
+        "Aethalura",
+        "Geometridae"
+    ],
+    "Agriopis aurantiaria": [
+        "Agriopis",
+        "Geometridae"
+    ],
+    "Agriopis leucophaearia": [
+        "Agriopis",
+        "Geometridae"
+    ],
+    "Agriopis marginaria": [
+        "Agriopis",
+        "Geometridae"
+    ],
+    "Alcis jubata": [
+        "Alcis",
+        "Geometridae"
+    ],
+    "Alcis repandata": [
+        "Alcis",
+        "Geometridae"
+    ],
+    "Aleucis distinctata": [
+        "Aleucis",
+        "Geometridae"
+    ],
+    "Alsophila aescularia": [
+        "Alsophila",
+        "Geometridae"
+    ],
+    "Angerona prunaria": [
+        "Angerona",
+        "Geometridae"
+    ],
+    "Anticlea derivata": [
+        "Anticlea",
+        "Geometridae"
+    ],
+    "Anticollix sparsata": [
+        "Anticollix",
+        "Geometridae"
+    ],
+    "Apeira syringaria": [
+        "Apeira",
+        "Geometridae"
+    ],
+    "Aplasta ononaria": [
+        "Aplasta",
+        "Geometridae"
+    ],
+    "Aplocera efformata": [
+        "Aplocera",
+        "Geometridae"
+    ],
+    "Aplocera plagiata": [
+        "Aplocera",
+        "Geometridae"
+    ],
+    "Aplocera praeformata": [
+        "Aplocera",
+        "Geometridae"
+    ],
+    "Apocheima hispidaria": [
+        "Apocheima",
+        "Geometridae"
+    ],
+    "Archiearis notha": [
+        "Archiearis",
+        "Geometridae"
+    ],
+    "Archiearis parthenias": [
+        "Archiearis",
+        "Geometridae"
+    ],
+    "Aspitates gilvaria": [
+        "Aspitates",
+        "Geometridae"
+    ],
+    "Aspitates ochrearia": [
+        "Aspitates",
+        "Geometridae"
+    ],
+    "Asthena albulata": [
+        "Asthena",
+        "Geometridae"
+    ],
+    "Biston betularia": [
+        "Biston",
+        "Geometridae"
+    ],
+    "Biston strataria": [
+        "Biston",
+        "Geometridae"
+    ],
+    "Bupalus piniaria": [
+        "Bupalus",
+        "Geometridae"
+    ],
+    "Cabera exanthemata": [
+        "Cabera",
+        "Geometridae"
+    ],
+    "Cabera pusaria": [
+        "Cabera",
+        "Geometridae"
+    ],
+    "Campaea margaritaria": [
+        "Campaea",
+        "Geometridae"
+    ],
+    "Camptogramma bilineata": [
+        "Camptogramma",
+        "Geometridae"
+    ],
+    "Carsia sororiata": [
+        "Carsia",
+        "Geometridae"
+    ],
+    "Catarhoe cuculata": [
+        "Catarhoe",
+        "Geometridae"
+    ],
+    "Catarhoe rubidata": [
+        "Catarhoe",
+        "Geometridae"
+    ],
+    "Cepphis advenaria": [
+        "Cepphis",
+        "Geometridae"
+    ],
+    "Charissa obscurata": [
+        "Charissa",
+        "Geometridae"
+    ],
+    "Chesias legatella": [
+        "Chesias",
+        "Geometridae"
+    ],
+    "Chesias rufata": [
+        "Chesias",
+        "Geometridae"
+    ],
+    "Chiasmia aestimaria": [
+        "Chiasmia",
+        "Geometridae"
+    ],
+    "Chiasmia clathrata": [
+        "Chiasmia",
+        "Geometridae"
+    ],
+    "Chlorissa cloraria": [
+        "Chlorissa",
+        "Geometridae"
+    ],
+    "Chlorissa viridata": [
+        "Chlorissa",
+        "Geometridae"
+    ],
+    "Chlorochlamys chloroleucaria": [
+        "Chlorochlamys",
+        "Geometridae"
+    ],
+    "Chloroclysta miata": [
+        "Chloroclysta",
+        "Geometridae"
+    ],
+    "Chloroclysta siterata": [
+        "Chloroclysta",
+        "Geometridae"
+    ],
+    "Chloroclystis v-ata": [
+        "Chloroclystis",
+        "Geometridae"
+    ],
+    "Cidaria fulvata": [
+        "Cidaria",
+        "Geometridae"
+    ],
+    "Cleora cinctaria": [
+        "Cleora",
+        "Geometridae"
+    ],
+    "Cleorodes lichenaria": [
+        "Cleorodes",
+        "Geometridae"
+    ],
+    "Coenocalpe lapidata": [
+        "Coenocalpe",
+        "Geometridae"
+    ],
+    "Nebula salicata": [
+        "Nebula",
+        "Geometridae"
+    ],
+    "Colostygia multistrigaria": [
+        "Colostygia",
+        "Geometridae"
+    ],
+    "Colostygia olivata": [
+        "Colostygia",
+        "Geometridae"
+    ],
+    "Colostygia pectinataria": [
+        "Colostygia",
+        "Geometridae"
+    ],
+    "Colotois pennaria": [
+        "Colotois",
+        "Geometridae"
+    ],
+    "Comibaena bajularia": [
+        "Comibaena",
+        "Geometridae"
+    ],
+    "Cosmorhoe ocellata": [
+        "Cosmorhoe",
+        "Geometridae"
+    ],
+    "Costaconvexa centrostrigaria": [
+        "Costaconvexa",
+        "Geometridae"
+    ],
+    "Costaconvexa polygrammata": [
+        "Costaconvexa",
+        "Geometridae"
+    ],
+    "Crocallis dardoinaria": [
+        "Crocallis",
+        "Geometridae"
+    ],
+    "Crocallis elinguaria": [
+        "Crocallis",
+        "Geometridae"
+    ],
+    "Cyclophora albipunctata": [
+        "Cyclophora",
+        "Geometridae"
+    ],
+    "Cyclophora annularia": [
+        "Cyclophora",
+        "Geometridae"
+    ],
+    "Cyclophora linearia": [
+        "Cyclophora",
+        "Geometridae"
+    ],
+    "Cyclophora pendularia": [
+        "Cyclophora",
+        "Geometridae"
+    ],
+    "Cyclophora porata": [
+        "Cyclophora",
+        "Geometridae"
+    ],
+    "Cyclophora punctaria": [
+        "Cyclophora",
+        "Geometridae"
+    ],
+    "Cyclophora puppillaria": [
+        "Cyclophora",
+        "Geometridae"
+    ],
+    "Cyclophora ruficiliaria": [
+        "Cyclophora",
+        "Geometridae"
+    ],
+    "Deileptenia ribeata": [
+        "Deileptenia",
+        "Geometridae"
+    ],
+    "Dyscia fagaria": [
+        "Dyscia",
+        "Geometridae"
+    ],
+    "Dysstroma citrata": [
+        "Dysstroma",
+        "Geometridae"
+    ],
+    "Dysstroma truncata": [
+        "Dysstroma",
+        "Geometridae"
+    ],
+    "Anticlea badiata": [
+        "Anticlea",
+        "Geometridae"
+    ],
+    "Ecliptopera silaceata": [
+        "Ecliptopera",
+        "Geometridae"
+    ],
+    "Ectropis crepuscularia": [
+        "Ectropis",
+        "Geometridae"
+    ],
+    "Electrophaes corylata": [
+        "Electrophaes",
+        "Geometridae"
+    ],
+    "Ematurga atomaria": [
+        "Ematurga",
+        "Geometridae"
+    ],
+    "Ennomos alniaria": [
+        "Ennomos",
+        "Geometridae"
+    ],
+    "Ennomos autumnaria": [
+        "Ennomos",
+        "Geometridae"
+    ],
+    "Ennomos erosaria": [
+        "Ennomos",
+        "Geometridae"
+    ],
+    "Ennomos fuscantaria": [
+        "Ennomos",
+        "Geometridae"
+    ],
+    "Ennomos quercaria": [
+        "Ennomos",
+        "Geometridae"
+    ],
+    "Ennomos quercinaria": [
+        "Ennomos",
+        "Geometridae"
+    ],
+    "Ennomos subsignaria": [
+        "Ennomos",
+        "Geometridae"
+    ],
+    "Entephria caesiata": [
+        "Entephria",
+        "Geometridae"
+    ],
+    "Entephria flavicinctata": [
+        "Entephria",
+        "Geometridae"
+    ],
+    "Epione repandaria": [
+        "Epione",
+        "Geometridae"
+    ],
+    "Epione vespertaria": [
+        "Epione",
+        "Geometridae"
+    ],
+    "Epirrhoe alternata": [
+        "Epirrhoe",
+        "Geometridae"
+    ],
+    "Epirrhoe galiata": [
+        "Epirrhoe",
+        "Geometridae"
+    ],
+    "Epirrhoe rivata": [
+        "Epirrhoe",
+        "Geometridae"
+    ],
+    "Epirrhoe tristata": [
+        "Epirrhoe",
+        "Geometridae"
+    ],
+    "Epirrita autumnata": [
+        "Epirrita",
+        "Geometridae"
+    ],
+    "Epirrita christyi": [
+        "Epirrita",
+        "Geometridae"
+    ],
+    "Epirrita dilutata": [
+        "Epirrita",
+        "Geometridae"
+    ],
+    "Epirrita filigrammaria": [
+        "Epirrita",
+        "Geometridae"
+    ],
+    "Erannis defoliaria": [
+        "Erannis",
+        "Geometridae"
+    ],
+    "Euchoeca nebulata": [
+        "Euchoeca",
+        "Geometridae"
+    ],
+    "Eulithis mellinata": [
+        "Eulithis",
+        "Geometridae"
+    ],
+    "Eulithis populata": [
+        "Eulithis",
+        "Geometridae"
+    ],
+    "Eulithis prunata": [
+        "Eulithis",
+        "Geometridae"
+    ],
+    "Eulithis testata": [
+        "Eulithis",
+        "Geometridae"
+    ],
+    "Euphyia biangulata": [
+        "Euphyia",
+        "Geometridae"
+    ],
+    "Euphyia unangulata": [
+        "Euphyia",
+        "Geometridae"
+    ],
+    "Eupithecia abbreviata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia abietaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia absinthiata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia assimilata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia breviculata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia cauchiata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia centaureata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia denotata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia distinctaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia dodoneata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia egenaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia exiguata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia expallidata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia extensaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia haworthiata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia icterata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia indigata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia innotata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia insigniata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia intricata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia inturbata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia irriguata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia lariciata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia linariata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia massiliata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia millefoliata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia nanata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia phoeniceata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia pimpinellata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia plumbeolata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia pulchellata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia pusillata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia pygmaeata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia satyrata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia simpliciata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia sinuosaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia subfuscata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia subumbrata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia succenturiata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia tantillaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia tenuiata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia tripunctaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia trisignaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia ultimaria": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia valerianata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia venosata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia virgaureata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eupithecia vulgata": [
+        "Eupithecia",
+        "Geometridae"
+    ],
+    "Eustroma reticulata": [
+        "Eustroma",
+        "Geometridae"
+    ],
+    "Fagivorina arenaria": [
+        "Fagivorina",
+        "Geometridae"
+    ],
+    "Perizoma sagittata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Eulithis pyraliata": [
+        "Eulithis",
+        "Geometridae"
+    ],
+    "Geometra papilionaria": [
+        "Geometra",
+        "Geometridae"
+    ],
+    "Gnophos obfuscata": [
+        "Gnophos",
+        "Geometridae"
+    ],
+    "Gymnoscelis rufifasciata": [
+        "Gymnoscelis",
+        "Geometridae"
+    ],
+    "Hemistola chrysoprasaria": [
+        "Hemistola",
+        "Geometridae"
+    ],
+    "Hemithea aestivaria": [
+        "Hemithea",
+        "Geometridae"
+    ],
+    "Horisme aquata": [
+        "Horisme",
+        "Geometridae"
+    ],
+    "Horisme radicaria": [
+        "Horisme",
+        "Geometridae"
+    ],
+    "Horisme tersata": [
+        "Horisme",
+        "Geometridae"
+    ],
+    "Horisme vitalbata": [
+        "Horisme",
+        "Geometridae"
+    ],
+    "Hydrelia flammeolaria": [
+        "Hydrelia",
+        "Geometridae"
+    ],
+    "Hydrelia sylvata": [
+        "Hydrelia",
+        "Geometridae"
+    ],
+    "Hydriomena furcata": [
+        "Hydriomena",
+        "Geometridae"
+    ],
+    "Hydriomena impluviata": [
+        "Hydriomena",
+        "Geometridae"
+    ],
+    "Hydriomena ruberata": [
+        "Hydriomena",
+        "Geometridae"
+    ],
+    "Hylaea fasciaria": [
+        "Hylaea",
+        "Geometridae"
+    ],
+    "Hypagyrtis unipunctata": [
+        "Hypagyrtis",
+        "Geometridae"
+    ],
+    "Hypomecis punctinalis": [
+        "Hypomecis",
+        "Geometridae"
+    ],
+    "Hypomecis roboraria": [
+        "Hypomecis",
+        "Geometridae"
+    ],
+    "Idaea aversata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea biselata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea contiguaria": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea degeneraria": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea dilutaria": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea dimidiata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea emarginata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea fuscovenosa": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea humiliata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea inquinata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea laevigata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea muricata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea ochrata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea rusticata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea seriata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea serpentata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea straminata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea subsericeata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea sylvestraria": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Idaea trigeminata": [
+        "Idaea",
+        "Geometridae"
+    ],
+    "Isturgia limbaria": [
+        "Isturgia",
+        "Geometridae"
+    ],
+    "Jodis lactearia": [
+        "Jodis",
+        "Geometridae"
+    ],
+    "Lampropteryx otregiata": [
+        "Lampropteryx",
+        "Geometridae"
+    ],
+    "Lampropteryx suffumata": [
+        "Lampropteryx",
+        "Geometridae"
+    ],
+    "Larentia clavaria": [
+        "Larentia",
+        "Geometridae"
+    ],
+    "Ligdia adustata": [
+        "Ligdia",
+        "Geometridae"
+    ],
+    "Lithostege griseata": [
+        "Lithostege",
+        "Geometridae"
+    ],
+    "Lobophora halterata": [
+        "Lobophora",
+        "Geometridae"
+    ],
+    "Lomaspilis marginata": [
+        "Lomaspilis",
+        "Geometridae"
+    ],
+    "Lomographa bimaculata": [
+        "Lomographa",
+        "Geometridae"
+    ],
+    "Lomographa temerata": [
+        "Lomographa",
+        "Geometridae"
+    ],
+    "Lycia hirtaria": [
+        "Lycia",
+        "Geometridae"
+    ],
+    "Lycia lapponaria": [
+        "Lycia",
+        "Geometridae"
+    ],
+    "Lycia zonaria": [
+        "Lycia",
+        "Geometridae"
+    ],
+    "Lythria purpuraria": [
+        "Lythria",
+        "Geometridae"
+    ],
+    "Macaria alternata": [
+        "Macaria",
+        "Geometridae"
+    ],
+    "Macaria bicolorata": [
+        "Macaria",
+        "Geometridae"
+    ],
+    "Macaria brunneata": [
+        "Macaria",
+        "Geometridae"
+    ],
+    "Macaria carbonaria": [
+        "Macaria",
+        "Geometridae"
+    ],
+    "Macaria liturata": [
+        "Macaria",
+        "Geometridae"
+    ],
+    "Macaria signaria": [
+        "Macaria",
+        "Geometridae"
+    ],
+    "Macaria wauaria": [
+        "Macaria",
+        "Geometridae"
+    ],
+    "Perizoma taeniata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Melanthia procellata": [
+        "Melanthia",
+        "Geometridae"
+    ],
+    "Menophra abruptaria": [
+        "Menophra",
+        "Geometridae"
+    ],
+    "Menophra japygiaria": [
+        "Menophra",
+        "Geometridae"
+    ],
+    "Mesoleuca albicillata": [
+        "Mesoleuca",
+        "Geometridae"
+    ],
+    "Perizoma didymata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Microloxia herbaria": [
+        "Microloxia",
+        "Geometridae"
+    ],
+    "Minoa murinata": [
+        "Minoa",
+        "Geometridae"
+    ],
+    "Nematocampa resistaria": [
+        "Nematocampa",
+        "Geometridae"
+    ],
+    "Orthonama obstipata": [
+        "Orthonama",
+        "Geometridae"
+    ],
+    "Odezia atrata": [
+        "Odezia",
+        "Geometridae"
+    ],
+    "Odontognophos dumetata": [
+        "Odontognophos",
+        "Geometridae"
+    ],
+    "Odontopera bidentata": [
+        "Odontopera",
+        "Geometridae"
+    ],
+    "Operophtera brumata": [
+        "Operophtera",
+        "Geometridae"
+    ],
+    "Operophtera fagata": [
+        "Operophtera",
+        "Geometridae"
+    ],
+    "Opisthograptis luteolata": [
+        "Opisthograptis",
+        "Geometridae"
+    ],
+    "Orthonama vittata": [
+        "Orthonama",
+        "Geometridae"
+    ],
+    "Ourapteryx sambucaria": [
+        "Ourapteryx",
+        "Geometridae"
+    ],
+    "Pachycnemia hippocastanaria": [
+        "Pachycnemia",
+        "Geometridae"
+    ],
+    "Paradarisa consonaria": [
+        "Paradarisa",
+        "Geometridae"
+    ],
+    "Parectropis similaria": [
+        "Parectropis",
+        "Geometridae"
+    ],
+    "Pareulype berberata": [
+        "Pareulype",
+        "Geometridae"
+    ],
+    "Pasiphila chloerata": [
+        "Pasiphila",
+        "Geometridae"
+    ],
+    "Pasiphila debiliata": [
+        "Pasiphila",
+        "Geometridae"
+    ],
+    "Pasiphila rectangulata": [
+        "Pasiphila",
+        "Geometridae"
+    ],
+    "Pelurga comitata": [
+        "Pelurga",
+        "Geometridae"
+    ],
+    "Pennithera firmata": [
+        "Pennithera",
+        "Geometridae"
+    ],
+    "Perconia strigillaria": [
+        "Perconia",
+        "Geometridae"
+    ],
+    "Peribatodes ilicaria": [
+        "Peribatodes",
+        "Geometridae"
+    ],
+    "Peribatodes rhomboidaria": [
+        "Peribatodes",
+        "Geometridae"
+    ],
+    "Peribatodes secundaria": [
+        "Peribatodes",
+        "Geometridae"
+    ],
+    "Peribatodes umbraria": [
+        "Peribatodes",
+        "Geometridae"
+    ],
+    "Perizoma affinitata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Perizoma albulata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Perizoma alchemillata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Perizoma bifaciata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Perizoma blandiata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Perizoma flavofasciata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Perizoma minorata": [
+        "Perizoma",
+        "Geometridae"
+    ],
+    "Petrophora chlorosata": [
+        "Pterophorus",
+        "Pterophoridae"
+    ],
+    "Phaiogramma faustinata": [
+        "Phaiogramma",
+        "Geometridae"
+    ],
+    "Phibalapteryx virgata": [
+        "Phibalapteryx",
+        "Geometridae"
+    ],
+    "Phigalia pilosaria": [
+        "Phigalia",
+        "Geometridae"
+    ],
+    "Philereme transversata": [
+        "Philereme",
+        "Geometridae"
+    ],
+    "Philereme vetulata": [
+        "Philereme",
+        "Geometridae"
+    ],
+    "Plagodis dolabraria": [
+        "Plagodis",
+        "Geometridae"
+    ],
+    "Plagodis pulveraria": [
+        "Plagodis",
+        "Geometridae"
+    ],
+    "Plemyria rubiginata": [
+        "Plemyria",
+        "Geometridae"
+    ],
+    "Plesiomorpha flaviceps": [
+        "Plesiomorpha",
+        "Geometridae"
+    ],
+    "Pleuroprucha insulsaria": [
+        "Pleuroprucha",
+        "Geometridae"
+    ],
+    "Pseudocoremia suavis": [
+        "Pseudocoremia",
+        "Geometridae"
+    ],
+    "Pseudopanthera macularia": [
+        "Pseudopanthera",
+        "Geometridae"
+    ],
+    "Pseudoterpna coronillaria": [
+        "Pseudoterpna",
+        "Geometridae"
+    ],
+    "Pseudoterpna pruinata": [
+        "Pseudoterpna",
+        "Geometridae"
+    ],
+    "Glacies coracina": [
+        "Glacies",
+        "Geometridae"
+    ],
+    "Pterapherapteryx sexalata": [
+        "Pterapherapteryx",
+        "Geometridae"
+    ],
+    "Pungeleria capreolaria": [
+        "Pungeleria",
+        "Geometridae"
+    ],
+    "Rheumaptera cervinalis": [
+        "Rheumaptera",
+        "Geometridae"
+    ],
+    "Rheumaptera hastata": [
+        "Rheumaptera",
+        "Geometridae"
+    ],
+    "Rheumaptera undulata": [
+        "Rheumaptera",
+        "Geometridae"
+    ],
+    "Rhodometra sacraria": [
+        "Rhodometra",
+        "Geometridae"
+    ],
+    "Scopula decorata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula emutaria": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula floslactata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula imitaria": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula immorata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula immutata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula limboundata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula marginepunctata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula nigropunctata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula ornata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula rubiginata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula ternata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scopula virgulata": [
+        "Scopula",
+        "Geometridae"
+    ],
+    "Scotopteryx bipunctaria": [
+        "Scotopteryx",
+        "Geometridae"
+    ],
+    "Scotopteryx chenopodiata": [
+        "Scotopteryx",
+        "Geometridae"
+    ],
+    "Scotopteryx luridata": [
+        "Scotopteryx",
+        "Geometridae"
+    ],
+    "Scotopteryx moeniata": [
+        "Scotopteryx",
+        "Geometridae"
+    ],
+    "Scotopteryx mucronata": [
+        "Scotopteryx",
+        "Geometridae"
+    ],
+    "Scotopteryx peribolata": [
+        "Scotopteryx",
+        "Geometridae"
+    ],
+    "Selenia dentaria": [
+        "Selenia",
+        "Geometridae"
+    ],
+    "Selenia lunularia": [
+        "Selenia",
+        "Geometridae"
+    ],
+    "Selenia tetralunaria": [
+        "Selenia",
+        "Geometridae"
+    ],
+    "Selidosema brunnearia": [
+        "Selidosema",
+        "Geometridae"
+    ],
+    "Siona lineata": [
+        "Siona",
+        "Geometridae"
+    ],
+    "Spargania luctuata": [
+        "Spargania",
+        "Geometridae"
+    ],
+    "Stegania cararia": [
+        "Stegania",
+        "Geometridae"
+    ],
+    "Stegania trimaculata": [
+        "Stegania",
+        "Geometridae"
+    ],
+    "Tephronia sepiaria": [
+        "Tephronia",
+        "Geometridae"
+    ],
+    "Thalera fimbrialis": [
+        "Thalera",
+        "Geometridae"
+    ],
+    "Thera britannica": [
+        "Thera",
+        "Geometridae"
+    ],
+    "Thera cognata": [
+        "Thera",
+        "Geometridae"
+    ],
+    "Thera cupressata": [
+        "Thera",
+        "Geometridae"
+    ],
+    "Thera juniperata": [
+        "Thera",
+        "Geometridae"
+    ],
+    "Thera obeliscata": [
+        "Thera",
+        "Geometridae"
+    ],
+    "Thera vetustata": [
+        "Thera",
+        "Geometridae"
+    ],
+    "Theria primaria": [
+        "Theria",
+        "Geometridae"
+    ],
+    "Thetidia smaragdaria": [
+        "Thetidia",
+        "Geometridae"
+    ],
+    "Timandra comae": [
+        "Timandra",
+        "Geometridae"
+    ],
+    "Trichopteryx carpinata": [
+        "Trichopteryx",
+        "Geometridae"
+    ],
+    "Trichopteryx polycommata": [
+        "Trichopteryx",
+        "Geometridae"
+    ],
+    "Triphosa dubitata": [
+        "Triphosa",
+        "Geometridae"
+    ],
+    "Venusia blomeri": [
+        "Venusia",
+        "Geometridae"
+    ],
+    "Venusia cambrica": [
+        "Venusia",
+        "Geometridae"
+    ],
+    "Xanthorhoe biriviata": [
+        "Xanthorhoe",
+        "Geometridae"
+    ],
+    "Xanthorhoe decoloraria": [
+        "Xanthorhoe",
+        "Geometridae"
+    ],
+    "Xanthorhoe designata": [
+        "Xanthorhoe",
+        "Geometridae"
+    ],
+    "Xanthorhoe fluctuata": [
+        "Xanthorhoe",
+        "Geometridae"
+    ],
+    "Xanthorhoe montanata": [
+        "Xanthorhoe",
+        "Geometridae"
+    ],
+    "Xanthorhoe quadrifasiata": [
+        "Xanthorhoe",
+        "Geometridae"
+    ],
+    "Xanthorhoe spadicearia": [
+        "Xanthorhoe",
+        "Geometridae"
+    ],
+    "Hepialus humuli": [
+        "Hepialus",
+        "Hepialidae"
+    ],
+    "Korscheltellus fusconebulosus": [
+        "Korscheltellus",
+        "Hepialidae"
+    ],
+    "Korscheltellus lupulina": [
+        "Korscheltellus",
+        "Hepialidae"
+    ],
+    "Phymatopus hecta": [
+        "Phymatopus",
+        "Hepialidae"
+    ],
+    "Triodia sylvina": [
+        "Triodia",
+        "Hepialidae"
+    ],
+    "Dendrolimus pini": [
+        "Dendrolimus",
+        "Lasiocampidae"
+    ],
+    "Eriogaster lanestris": [
+        "Eriogaster",
+        "Lasiocampidae"
+    ],
+    "Euthrix potatoria": [
+        "Euthrix",
+        "Lasiocampidae"
+    ],
+    "Gastropacha quercifolia": [
+        "Gastropacha",
+        "Lasiocampidae"
+    ],
+    "Lasiocampa quercus": [
+        "Lasiocampa",
+        "Lasiocampidae"
+    ],
+    "Lasiocampa trifolii": [
+        "Lasiocampa",
+        "Lasiocampidae"
+    ],
+    "Macrothylacia rubi": [
+        "Macrothylacia",
+        "Lasiocampidae"
+    ],
+    "Malacosoma castrensis": [
+        "Malacosoma",
+        "Lasiocampidae"
+    ],
+    "Malacosoma neustria": [
+        "Malacosoma",
+        "Lasiocampidae"
+    ],
+    "Odonestis pruni": [
+        "Odonestis",
+        "Lasiocampidae"
+    ],
+    "Phyllodesma ilicifolia": [
+        "Phyllodesma",
+        "Lasiocampidae"
+    ],
+    "Poecilocampa populi": [
+        "Poecilocampa",
+        "Lasiocampidae"
+    ],
+    "Trichiura crataegi": [
+        "Trichiura",
+        "Lasiocampidae"
+    ],
+    "Apoda limacodes": [
+        "Apoda",
+        "Limacodidae"
+    ],
+    "Heterogenea asella": [
+        "Heterogenea",
+        "Limacodidae"
+    ],
+    "Abrostola tripartita": [
+        "Abrostola",
+        "Noctuidae"
+    ],
+    "Abrostola triplasia": [
+        "Abrostola",
+        "Noctuidae"
+    ],
+    "Acontia aprica": [
+        "Acontia",
+        "Noctuidae"
+    ],
+    "Acontia lucida": [
+        "Acontia",
+        "Noctuidae"
+    ],
+    "Acontia nitidula": [
+        "Acontia",
+        "Noctuidae"
+    ],
+    "Acontia trabealis": [
+        "Acontia",
+        "Noctuidae"
+    ],
+    "Acosmetia caliginosa": [
+        "Acosmetia",
+        "Noctuidae"
+    ],
+    "Acronicta aceris": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta alni": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta auricoma": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta cinerea": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta cuspis": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta leporina": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta menyanthidis": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta psi": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta rumicis": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta strigosa": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Acronicta tridens": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Actebia fennica": [
+        "Actebia",
+        "Noctuidae"
+    ],
+    "Actebia praecox": [
+        "Actebia",
+        "Noctuidae"
+    ],
+    "Actinotia polyodon": [
+        "Actinotia",
+        "Noctuidae"
+    ],
+    "Aedia funesta": [
+        "Aedia",
+        "Noctuidae"
+    ],
+    "Aedia leucomelas": [
+        "Aedia",
+        "Noctuidae"
+    ],
+    "Agrochola lychnidis": [
+        "Agrochola",
+        "Noctuidae"
+    ],
+    "Agrotis bigramma": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis catalaunensis": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis cinerea": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis clavis": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis deprivata": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis exclamationis": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis graslini": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis herzogi": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis ipsilon": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis puta": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis ripae": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis segetum": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis trux": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Agrotis vestigialis": [
+        "Agrotis",
+        "Noctuidae"
+    ],
+    "Allophyes oxyacanthae": [
+        "Allophyes",
+        "Noctuidae"
+    ],
+    "Amphipoea crinanensis": [
+        "Amphipoea",
+        "Noctuidae"
+    ],
+    "Amphipoea fucosa": [
+        "Amphipoea",
+        "Noctuidae"
+    ],
+    "Amphipoea lucens": [
+        "Amphipoea",
+        "Noctuidae"
+    ],
+    "Amphipoea oculea": [
+        "Amphipoea",
+        "Noctuidae"
+    ],
+    "Amphipyra berbera": [
+        "Amphipyra",
+        "Noctuidae"
+    ],
+    "Amphipyra effusa": [
+        "Amphipyra",
+        "Noctuidae"
+    ],
+    "Amphipyra pyramidea": [
+        "Amphipyra",
+        "Noctuidae"
+    ],
+    "Amphipyra tragopoginis": [
+        "Amphipyra",
+        "Noctuidae"
+    ],
+    "Anaplectoides prasina": [
+        "Anaplectoides",
+        "Noctuidae"
+    ],
+    "Anarta melanopa": [
+        "Anarta",
+        "Noctuidae"
+    ],
+    "Anarta myrtilli": [
+        "Anarta",
+        "Noctuidae"
+    ],
+    "Anarta trifolii": [
+        "Anarta",
+        "Noctuidae"
+    ],
+    "Anchoscelis haematidea": [
+        "Agrochola",
+        "Noctuidae"
+    ],
+    "Anchoscelis helvola": [
+        "Agrochola",
+        "Noctuidae"
+    ],
+    "Agrochola litura": [
+        "Agrochola",
+        "Noctuidae"
+    ],
+    "Anchoscelis lunosa": [
+        "Agrochola",
+        "Noctuidae"
+    ],
+    "Anorthoa munda": [
+        "Anorthoa",
+        "Noctuidae"
+    ],
+    "Antitype chi": [
+        "Antitype",
+        "Noctuidae"
+    ],
+    "Apamea anceps": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea crenata": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea epomidion": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea exulis": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea furva": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea lateritia": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea lithoxylaea": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea monoglypha": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea oblonga": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea remissa": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Loscopia scolopacina": [
+        "Loscopia",
+        "Noctuidae"
+    ],
+    "Apamea sordens": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea sublustris": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Apamea unanimis": [
+        "Apamea",
+        "Noctuidae"
+    ],
+    "Aporophyla australis": [
+        "Aporophyla",
+        "Noctuidae"
+    ],
+    "Aporophyla lueneburgensis": [
+        "Aporophyla",
+        "Noctuidae"
+    ],
+    "Aporophyla lutulenta": [
+        "Aporophyla",
+        "Noctuidae"
+    ],
+    "Aporophyla nigra": [
+        "Aporophyla",
+        "Noctuidae"
+    ],
+    "Apterogenum ypsillon": [
+        "Apterogenum",
+        "Noctuidae"
+    ],
+    "Archanara dissoluta": [
+        "Archanara",
+        "Noctuidae"
+    ],
+    "Archanara neurica": [
+        "Archanara",
+        "Noctuidae"
+    ],
+    "Arenostola phragmitidis": [
+        "Arenostola",
+        "Noctuidae"
+    ],
+    "Asteroscopus sphinx": [
+        "Asteroscopus",
+        "Noctuidae"
+    ],
+    "Atethmia centrago": [
+        "Atethmia",
+        "Noctuidae"
+    ],
+    "Athetis hospes": [
+        "Athetis",
+        "Noctuidae"
+    ],
+    "Athetis pallustris": [
+        "Athetis",
+        "Noctuidae"
+    ],
+    "Autographa bimaculata": [
+        "Autographa",
+        "Noctuidae"
+    ],
+    "Autographa bractea": [
+        "Autographa",
+        "Noctuidae"
+    ],
+    "Autographa gamma": [
+        "Autographa",
+        "Noctuidae"
+    ],
+    "Autographa jota": [
+        "Autographa",
+        "Noctuidae"
+    ],
+    "Autographa pulchrina": [
+        "Autographa",
+        "Noctuidae"
+    ],
+    "Axylia putris": [
+        "Axylia",
+        "Noctuidae"
+    ],
+    "Brachionycha nubeculosa": [
+        "Brachionycha",
+        "Noctuidae"
+    ],
+    "Brachylomia viminalis": [
+        "Brachylomia",
+        "Noctuidae"
+    ],
+    "Brithys crini": [
+        "Brithys",
+        "Noctuidae"
+    ],
+    "Bryophila domestica": [
+        "Bryophila",
+        "Noctuidae"
+    ],
+    "Bryophila raptricula": [
+        "Bryophila",
+        "Noctuidae"
+    ],
+    "Nyctobrya muralis": [
+        "Nyctobrya",
+        "Noctuidae"
+    ],
+    "Caenurgina crassiuscula": [
+        "Caenurgina",
+        "Erebidae"
+    ],
+    "Calamia tridens": [
+        "Calamia",
+        "Noctuidae"
+    ],
+    "Callopistria floridensis": [
+        "Callopistria",
+        "Noctuidae"
+    ],
+    "Callopistria juventina": [
+        "Callopistria",
+        "Noctuidae"
+    ],
+    "Callopistria latreillei": [
+        "Callopistria",
+        "Noctuidae"
+    ],
+    "Calophasia lunula": [
+        "Calophasia",
+        "Noctuidae"
+    ],
+    "Calophasia platyptera": [
+        "Calophasia",
+        "Noctuidae"
+    ],
+    "Caradrina clavipalpis": [
+        "Caradrina",
+        "Noctuidae"
+    ],
+    "Caradrina flavirena": [
+        "Caradrina",
+        "Noctuidae"
+    ],
+    "Caradrina kadenii": [
+        "Caradrina",
+        "Noctuidae"
+    ],
+    "Caradrina morpheus": [
+        "Caradrina",
+        "Noctuidae"
+    ],
+    "Caradrina selini": [
+        "Caradrina",
+        "Noctuidae"
+    ],
+    "Celaena haworthii": [
+        "Celaena",
+        "Noctuidae"
+    ],
+    "Ceramica pisi": [
+        "Ceramica",
+        "Noctuidae"
+    ],
+    "Cerapteryx graminis": [
+        "Cerapteryx",
+        "Noctuidae"
+    ],
+    "Cerastis leucographa": [
+        "Cerastis",
+        "Noctuidae"
+    ],
+    "Cerastis rubricosa": [
+        "Cerastis",
+        "Noctuidae"
+    ],
+    "Charadra deridens": [
+        "Charadra",
+        "Noctuidae"
+    ],
+    "Charanyca trigrammica": [
+        "Charanyca",
+        "Noctuidae"
+    ],
+    "Chilodes maritima": [
+        "Chilodes",
+        "Noctuidae"
+    ],
+    "Chloantha hyperici": [
+        "Chloantha",
+        "Noctuidae"
+    ],
+    "Chrysodeixis acuta": [
+        "Chrysodeixis",
+        "Noctuidae"
+    ],
+    "Chrysodeixis chalcites": [
+        "Chrysodeixis",
+        "Noctuidae"
+    ],
+    "Xanthia gilvago": [
+        "Xanthia",
+        "Noctuidae"
+    ],
+    "Cirrhia icteritia": [
+        "Xanthia",
+        "Noctuidae"
+    ],
+    "Cirrhia ocellaris": [
+        "Xanthia",
+        "Noctuidae"
+    ],
+    "Coenobia rufa": [
+        "Coenobia",
+        "Noctuidae"
+    ],
+    "Coenophila subrosea": [
+        "Coenophila",
+        "Noctuidae"
+    ],
+    "Colocasia coryli": [
+        "Colocasia",
+        "Noctuidae"
+    ],
+    "Conisania andalusica": [
+        "Conisania",
+        "Noctuidae"
+    ],
+    "Conistra erythrocephala": [
+        "Conistra",
+        "Noctuidae"
+    ],
+    "Conistra ligula": [
+        "Conistra",
+        "Noctuidae"
+    ],
+    "Conistra rubiginea": [
+        "Conistra",
+        "Noctuidae"
+    ],
+    "Conistra rubiginosa": [
+        "Conistra",
+        "Noctuidae"
+    ],
+    "Conistra vaccinii": [
+        "Conistra",
+        "Noctuidae"
+    ],
+    "Psaphida styracis": [
+        "Psaphida",
+        "Noctuidae"
+    ],
+    "Coranarta cordigera": [
+        "Coranarta",
+        "Noctuidae"
+    ],
+    "Cornutiplusia circumflexa": [
+        "Cornutiplusia",
+        "Noctuidae"
+    ],
+    "Cosmia affinis": [
+        "Cosmia",
+        "Noctuidae"
+    ],
+    "Cosmia diffinis": [
+        "Cosmia",
+        "Noctuidae"
+    ],
+    "Cosmia pyralina": [
+        "Cosmia",
+        "Noctuidae"
+    ],
+    "Cosmia trapezina": [
+        "Cosmia",
+        "Noctuidae"
+    ],
+    "Craniophora ligustri": [
+        "Craniophora",
+        "Noctuidae"
+    ],
+    "Cryphia algae": [
+        "Cryphia",
+        "Noctuidae"
+    ],
+    "Crypsedra gemmea": [
+        "Crypsedra",
+        "Noctuidae"
+    ],
+    "Ctenoplusia accentifera": [
+        "Ctenoplusia",
+        "Noctuidae"
+    ],
+    "Ctenoplusia limbirena": [
+        "Ctenoplusia",
+        "Noctuidae"
+    ],
+    "Cucullia absinthii": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia argentea": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia artemisiae": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia asteris": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia calendulae": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia chamomillae": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia gnaphalii": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia lactucae": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia lychnitis": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Shargacucullia scrophulariae": [
+        "Shargacucullia",
+        "Noctuidae"
+    ],
+    "Cucullia umbratica": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Cucullia verbasci": [
+        "Cucullia",
+        "Noctuidae"
+    ],
+    "Dasypolia templi": [
+        "Dasypolia",
+        "Noctuidae"
+    ],
+    "Deltote bankiana": [
+        "Deltote",
+        "Noctuidae"
+    ],
+    "Deltote deceptoria": [
+        "Deltote",
+        "Noctuidae"
+    ],
+    "Deltote uncula": [
+        "Deltote",
+        "Noctuidae"
+    ],
+    "Denticucullus pygmina": [
+        "Denticucullus",
+        "Noctuidae"
+    ],
+    "Diachrysia chrysitis": [
+        "Diachrysia",
+        "Noctuidae"
+    ],
+    "Diachrysia chryson": [
+        "Diachrysia",
+        "Noctuidae"
+    ],
+    "Diachrysia stenochrysis": [
+        "Diachrysia",
+        "Noctuidae"
+    ],
+    "Diarsia brunnea": [
+        "Diarsia",
+        "Noctuidae"
+    ],
+    "Diarsia dahlii": [
+        "Diarsia",
+        "Noctuidae"
+    ],
+    "Diarsia florida": [
+        "Diarsia",
+        "Noctuidae"
+    ],
+    "Diarsia mendica": [
+        "Diarsia",
+        "Noctuidae"
+    ],
+    "Diarsia rubi": [
+        "Diarsia",
+        "Noctuidae"
+    ],
+    "Basistriga flammatra": [
+        "Basistriga",
+        "Noctuidae"
+    ],
+    "Dicycla oo": [
+        "Dicycla",
+        "Noctuidae"
+    ],
+    "Diloba caeruleocephala": [
+        "Diloba",
+        "Noctuidae"
+    ],
+    "Diphthera festiva": [
+        "Diphthera",
+        "Erebidae"
+    ],
+    "Dryobota labecula": [
+        "Dryobota",
+        "Noctuidae"
+    ],
+    "Dryobotodes eremita": [
+        "Dryobotodes",
+        "Noctuidae"
+    ],
+    "Dryobotodes roboris": [
+        "Dryobotodes",
+        "Noctuidae"
+    ],
+    "Dryobotodes tenebrosa": [
+        "Dryobotodes",
+        "Noctuidae"
+    ],
+    "Dypterygia scabriuscula": [
+        "Dypterygia",
+        "Noctuidae"
+    ],
+    "Egira conspicillaris": [
+        "Egira",
+        "Noctuidae"
+    ],
+    "Elaphria agrotina": [
+        "Elaphria",
+        "Noctuidae"
+    ],
+    "Elaphria venustula": [
+        "Elaphria",
+        "Noctuidae"
+    ],
+    "Enargia paleacea": [
+        "Enargia",
+        "Noctuidae"
+    ],
+    "Eremobia ochroleuca": [
+        "Eremobia",
+        "Noctuidae"
+    ],
+    "Eriopygodes imbecillus": [
+        "Lasionycta",
+        "Noctuidae"
+    ],
+    "Eucarta amethystina": [
+        "Eucarta",
+        "Noctuidae"
+    ],
+    "Eucarta virgo": [
+        "Eucarta",
+        "Noctuidae"
+    ],
+    "Euchalcia variabilis": [
+        "Euchalcia",
+        "Noctuidae"
+    ],
+    "Eudryas staejohannis": [
+        "Eudryas",
+        "Noctuidae"
+    ],
+    "Eugnorisma depuncta": [
+        "Eugnorisma",
+        "Noctuidae"
+    ],
+    "Eugnorisma glareosa": [
+        "Eugnorisma",
+        "Noctuidae"
+    ],
+    "Euplexia lucipara": [
+        "Euplexia",
+        "Noctuidae"
+    ],
+    "Eupsilia transversa": [
+        "Eupsilia",
+        "Noctuidae"
+    ],
+    "Eurois occulta": [
+        "Eurois",
+        "Noctuidae"
+    ],
+    "Euxoa cursoria": [
+        "Euxoa",
+        "Noctuidae"
+    ],
+    "Euxoa nigricans": [
+        "Euxoa",
+        "Noctuidae"
+    ],
+    "Euxoa obelisca": [
+        "Euxoa",
+        "Noctuidae"
+    ],
+    "Euxoa tritici": [
+        "Euxoa",
+        "Noctuidae"
+    ],
+    "Fabula zollikoferi": [
+        "Fabula",
+        "Noctuidae"
+    ],
+    "Feltia subgothica": [
+        "Feltia",
+        "Noctuidae"
+    ],
+    "Feltia subterranea": [
+        "Feltia",
+        "Noctuidae"
+    ],
+    "Galgula partita": [
+        "Galgula",
+        "Noctuidae"
+    ],
+    "Globia algae": [
+        "Globia",
+        "Noctuidae"
+    ],
+    "Globia sparganii": [
+        "Globia",
+        "Noctuidae"
+    ],
+    "Gortyna borelii": [
+        "Gortyna",
+        "Noctuidae"
+    ],
+    "Gortyna flavago": [
+        "Gortyna",
+        "Noctuidae"
+    ],
+    "Graphania dives": [
+        "Graphania",
+        "Noctuidae"
+    ],
+    "Graphiphora augur": [
+        "Graphiphora",
+        "Noctuidae"
+    ],
+    "Griposia aprilina": [
+        "Griposia",
+        "Noctuidae"
+    ],
+    "Hada plebeja": [
+        "Hada",
+        "Noctuidae"
+    ],
+    "Hadena albimacula": [
+        "Hadena",
+        "Noctuidae"
+    ],
+    "Hadena bicruris": [
+        "Hadena",
+        "Noctuidae"
+    ],
+    "Hadena caesia": [
+        "Hadena",
+        "Noctuidae"
+    ],
+    "Hadena compta": [
+        "Hadena",
+        "Noctuidae"
+    ],
+    "Hadena confusa": [
+        "Hadena",
+        "Noctuidae"
+    ],
+    "Hadena irregularis": [
+        "Hadena",
+        "Noctuidae"
+    ],
+    "Hadena perplexa": [
+        "Hadena",
+        "Noctuidae"
+    ],
+    "Hecatera bicolorata": [
+        "Hecatera",
+        "Noctuidae"
+    ],
+    "Hecatera dysodea": [
+        "Hecatera",
+        "Noctuidae"
+    ],
+    "Helicoverpa armigera": [
+        "Helicoverpa",
+        "Noctuidae"
+    ],
+    "Heliothis maritima": [
+        "Heliothis",
+        "Noctuidae"
+    ],
+    "Heliothis nubigera": [
+        "Heliothis",
+        "Noctuidae"
+    ],
+    "Heliothis peltigera": [
+        "Heliothis",
+        "Noctuidae"
+    ],
+    "Heliothis viriplaca": [
+        "Heliothis",
+        "Noctuidae"
+    ],
+    "Helotropha leucostigma": [
+        "Helotropha",
+        "Noctuidae"
+    ],
+    "Hoplodrina ambigua": [
+        "Hoplodrina",
+        "Noctuidae"
+    ],
+    "Hoplodrina blanda": [
+        "Hoplodrina",
+        "Noctuidae"
+    ],
+    "Hoplodrina octogenaria": [
+        "Hoplodrina",
+        "Noctuidae"
+    ],
+    "Hoplodrina superstes": [
+        "Hoplodrina",
+        "Noctuidae"
+    ],
+    "Hydraecia micacea": [
+        "Hydraecia",
+        "Noctuidae"
+    ],
+    "Hydraecia osseola": [
+        "Hydraecia",
+        "Noctuidae"
+    ],
+    "Hydraecia petasitis": [
+        "Hydraecia",
+        "Noctuidae"
+    ],
+    "Hyppa rectilinea": [
+        "Hyppa",
+        "Noctuidae"
+    ],
+    "Ipimorpha retusa": [
+        "Ipimorpha",
+        "Noctuidae"
+    ],
+    "Ipimorpha subtusa": [
+        "Ipimorpha",
+        "Noctuidae"
+    ],
+    "Jodia croceago": [
+        "Jodia",
+        "Noctuidae"
+    ],
+    "Lacanobia blenna": [
+        "Lacanobia",
+        "Noctuidae"
+    ],
+    "Lacanobia contigua": [
+        "Lacanobia",
+        "Noctuidae"
+    ],
+    "Lacanobia oleracea": [
+        "Lacanobia",
+        "Noctuidae"
+    ],
+    "Lacanobia splendens": [
+        "Lacanobia",
+        "Noctuidae"
+    ],
+    "Lacanobia suasa": [
+        "Lacanobia",
+        "Noctuidae"
+    ],
+    "Lacanobia thalassina": [
+        "Lacanobia",
+        "Noctuidae"
+    ],
+    "Lacanobia w-latinum": [
+        "Lacanobia",
+        "Noctuidae"
+    ],
+    "Lacinipolia laudabilis": [
+        "Lacinipolia",
+        "Noctuidae"
+    ],
+    "Lacinipolia renigera": [
+        "Lacinipolia",
+        "Noctuidae"
+    ],
+    "Lateroligia ophiogramma": [
+        "Lateroligia",
+        "Noctuidae"
+    ],
+    "Lenisa geminipuncta": [
+        "Lenisa",
+        "Noctuidae"
+    ],
+    "Leptologia lota": [
+        "Agrochola",
+        "Noctuidae"
+    ],
+    "Leptologia macilenta": [
+        "Agrochola",
+        "Noctuidae"
+    ],
+    "Leucania comma": [
+        "Leucania",
+        "Noctuidae"
+    ],
+    "Leucania loreyi": [
+        "Leucania",
+        "Noctuidae"
+    ],
+    "Leucania obsoleta": [
+        "Leucania",
+        "Noctuidae"
+    ],
+    "Leucania putrescens": [
+        "Leucania",
+        "Noctuidae"
+    ],
+    "Leucochlaena oditis": [
+        "Leucochlaena",
+        "Noctuidae"
+    ],
+    "Lithophane consocia": [
+        "Lithophane",
+        "Noctuidae"
+    ],
+    "Lithophane furcifera": [
+        "Lithophane",
+        "Noctuidae"
+    ],
+    "Lithophane lamda": [
+        "Lithophane",
+        "Noctuidae"
+    ],
+    "Lithophane leautieri": [
+        "Lithophane",
+        "Noctuidae"
+    ],
+    "Lithophane ornitopus": [
+        "Lithophane",
+        "Noctuidae"
+    ],
+    "Lithophane semibrunnea": [
+        "Lithophane",
+        "Noctuidae"
+    ],
+    "Lithophane socia": [
+        "Lithophane",
+        "Noctuidae"
+    ],
+    "Litoligia literosa": [
+        "Litoligia",
+        "Noctuidae"
+    ],
+    "Longalatedes elymi": [
+        "Longalatedes",
+        "Noctuidae"
+    ],
+    "Luperina dumerilii": [
+        "Luperina",
+        "Noctuidae"
+    ],
+    "Luperina nickerlii": [
+        "Luperina",
+        "Noctuidae"
+    ],
+    "Luperina testacea": [
+        "Luperina",
+        "Noctuidae"
+    ],
+    "Lycophotia porphyrea": [
+        "Lycophotia",
+        "Noctuidae"
+    ],
+    "Macdunnoughia confusa": [
+        "Macdunnoughia",
+        "Noctuidae"
+    ],
+    "Mamestra brassicae": [
+        "Mamestra",
+        "Noctuidae"
+    ],
+    "Megalographa biloba": [
+        "Megalographa",
+        "Noctuidae"
+    ],
+    "Meganephria bimaculosa": [
+        "Meganephria",
+        "Noctuidae"
+    ],
+    "Melanchra persicariae": [
+        "Melanchra",
+        "Noctuidae"
+    ],
+    "Mesapamea secalis": [
+        "Mesapamea",
+        "Noctuidae"
+    ],
+    "Mesogona acetosellae": [
+        "Mesogona",
+        "Noctuidae"
+    ],
+    "Mesoligia furuncula": [
+        "Mesoligia",
+        "Noctuidae"
+    ],
+    "Mniotype adusta": [
+        "Mniotype",
+        "Noctuidae"
+    ],
+    "Mniotype satura": [
+        "Mniotype",
+        "Noctuidae"
+    ],
+    "Mniotype solieri": [
+        "Mniotype",
+        "Noctuidae"
+    ],
+    "Mocis trifasciata": [
+        "Mocis",
+        "Erebidae"
+    ],
+    "Moma alpium": [
+        "Moma",
+        "Noctuidae"
+    ],
+    "Mormo maura": [
+        "Mormo",
+        "Noctuidae"
+    ],
+    "Mythimna albipuncta": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Leucania commoides": [
+        "Leucania",
+        "Noctuidae"
+    ],
+    "Mythimna conigera": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna ferrago": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna impura": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna l-album": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna litoralis": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna pallens": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna pudorina": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna straminea": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna turca": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna unipuncta": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Mythimna vitellina": [
+        "Mythimna",
+        "Noctuidae"
+    ],
+    "Naenia typica": [
+        "Naenia",
+        "Noctuidae"
+    ],
+    "Noctua comes": [
+        "Noctua",
+        "Noctuidae"
+    ],
+    "Noctua fimbriata": [
+        "Noctua",
+        "Noctuidae"
+    ],
+    "Noctua interjecta": [
+        "Noctua",
+        "Noctuidae"
+    ],
+    "Noctua janthe": [
+        "Noctua",
+        "Noctuidae"
+    ],
+    "Noctua janthina": [
+        "Noctua",
+        "Noctuidae"
+    ],
+    "Noctua orbona": [
+        "Noctua",
+        "Noctuidae"
+    ],
+    "Noctua pronuba": [
+        "Noctua",
+        "Noctuidae"
+    ],
+    "Nonagria typhae": [
+        "Nonagria",
+        "Noctuidae"
+    ],
+    "Ochropleura leucogaster": [
+        "Ochropleura",
+        "Noctuidae"
+    ],
+    "Ochropleura plecta": [
+        "Ochropleura",
+        "Noctuidae"
+    ],
+    "Oligia fasciuncula": [
+        "Oligia",
+        "Noctuidae"
+    ],
+    "Oligia latruncula": [
+        "Oligia",
+        "Noctuidae"
+    ],
+    "Oligia strigilis": [
+        "Oligia",
+        "Noctuidae"
+    ],
+    "Oligia versicolor": [
+        "Oligia",
+        "Noctuidae"
+    ],
+    "Oria musculosa": [
+        "Oria",
+        "Noctuidae"
+    ],
+    "Orodesma apicina": [
+        "Orodesma",
+        "Erebidae"
+    ],
+    "Orthosia cerasi": [
+        "Orthosia",
+        "Noctuidae"
+    ],
+    "Orthosia gothica": [
+        "Orthosia",
+        "Noctuidae"
+    ],
+    "Orthosia gracilis": [
+        "Orthosia",
+        "Noctuidae"
+    ],
+    "Orthosia incerta": [
+        "Orthosia",
+        "Noctuidae"
+    ],
+    "Orthosia miniosa": [
+        "Orthosia",
+        "Noctuidae"
+    ],
+    "Orthosia opima": [
+        "Orthosia",
+        "Noctuidae"
+    ],
+    "Orthosia populeti": [
+        "Orthosia",
+        "Noctuidae"
+    ],
+    "Pabulatrix pabulatricula": [
+        "Pabulatrix",
+        "Noctuidae"
+    ],
+    "Pachetra sagittigera": [
+        "Pachetra",
+        "Noctuidae"
+    ],
+    "Panemeria tenebrata": [
+        "Panemeria",
+        "Noctuidae"
+    ],
+    "Panolis flammea": [
+        "Panolis",
+        "Noctuidae"
+    ],
+    "Papestra biren": [
+        "Papestra",
+        "Noctuidae"
+    ],
+    "Parastichtis suspecta": [
+        "Parastichtis",
+        "Noctuidae"
+    ],
+    "Pardasena virgulana": [
+        "Pardasena",
+        "Nolidae"
+    ],
+    "Peridroma saucia": [
+        "Peridroma",
+        "Noctuidae"
+    ],
+    "Perigea capensis": [
+        "Perigea",
+        "Noctuidae"
+    ],
+    "Periphanes delphinii": [
+        "Periphanes",
+        "Noctuidae"
+    ],
+    "Phlogophora meticulosa": [
+        "Phlogophora",
+        "Noctuidae"
+    ],
+    "Photedes captiuncula": [
+        "Photedes",
+        "Noctuidae"
+    ],
+    "Photedes extrema": [
+        "Photedes",
+        "Noctuidae"
+    ],
+    "Photedes fluxa": [
+        "Photedes",
+        "Noctuidae"
+    ],
+    "Photedes minima": [
+        "Photedes",
+        "Noctuidae"
+    ],
+    "Photedes morrisii": [
+        "Photedes",
+        "Noctuidae"
+    ],
+    "Hypena scabra": [
+        "Hypena",
+        "Erebidae"
+    ],
+    "Plusia festucae": [
+        "Plusia",
+        "Noctuidae"
+    ],
+    "Plusia putnami": [
+        "Plusia",
+        "Noctuidae"
+    ],
+    "Polia bombycina": [
+        "Polia",
+        "Noctuidae"
+    ],
+    "Polia hepatica": [
+        "Polia",
+        "Noctuidae"
+    ],
+    "Polia nebulosa": [
+        "Polia",
+        "Noctuidae"
+    ],
+    "Polychrysia moneta": [
+        "Polychrysia",
+        "Noctuidae"
+    ],
+    "Polymixis flavicincta": [
+        "Polymixis",
+        "Noctuidae"
+    ],
+    "Polymixis lichenea": [
+        "Polymixis",
+        "Noctuidae"
+    ],
+    "Polymixis xanthomista": [
+        "Polymixis",
+        "Noctuidae"
+    ],
+    "Polyphaenis sericata": [
+        "Polyphaenis",
+        "Noctuidae"
+    ],
+    "Protarchanara brevilinea": [
+        "Protarchanara",
+        "Noctuidae"
+    ],
+    "Deltote pygarga": [
+        "Deltote",
+        "Noctuidae"
+    ],
+    "Protolampra sobrina": [
+        "Protolampra",
+        "Noctuidae"
+    ],
+    "Protoschinia scutosa": [
+        "Protoschinia",
+        "Noctuidae"
+    ],
+    "Pseudenargia ulicis": [
+        "Pseudenargia",
+        "Noctuidae"
+    ],
+    "Pseudeustrotia candidula": [
+        "Pseudeustrotia",
+        "Noctuidae"
+    ],
+    "Acontia margaritata": [
+        "Acontia",
+        "Noctuidae"
+    ],
+    "Pyrrhia umbra": [
+        "Pyrrhia",
+        "Noctuidae"
+    ],
+    "Raphia frater": [
+        "Raphia",
+        "Noctuidae"
+    ],
+    "Rhizedra lutosa": [
+        "Rhizedra",
+        "Noctuidae"
+    ],
+    "Rhyacia lucipeta": [
+        "Rhyacia",
+        "Noctuidae"
+    ],
+    "Rhyacia simulans": [
+        "Rhyacia",
+        "Noctuidae"
+    ],
+    "Charanyca ferruginea": [
+        "Charanyca",
+        "Noctuidae"
+    ],
+    "Schinia rivulosa": [
+        "Schinia",
+        "Noctuidae"
+    ],
+    "Scotochrosta pulla": [
+        "Scotochrosta",
+        "Noctuidae"
+    ],
+    "Sedina buettneri": [
+        "Sedina",
+        "Noctuidae"
+    ],
+    "Senta flammea": [
+        "Senta",
+        "Noctuidae"
+    ],
+    "Sesamia nonagrioides": [
+        "Sesamia",
+        "Noctuidae"
+    ],
+    "Shargacucullia caninae": [
+        "Shargacucullia",
+        "Noctuidae"
+    ],
+    "Shargacucullia prenanthis": [
+        "Shargacucullia",
+        "Noctuidae"
+    ],
+    "Sideridis reticulata": [
+        "Sideridis",
+        "Noctuidae"
+    ],
+    "Sideridis rivularis": [
+        "Sideridis",
+        "Noctuidae"
+    ],
+    "Sideridis turbida": [
+        "Sideridis",
+        "Noctuidae"
+    ],
+    "Simyra albovenosa": [
+        "Simyra",
+        "Noctuidae"
+    ],
+    "Spaelotis ravida": [
+        "Spaelotis",
+        "Noctuidae"
+    ],
+    "Spodoptera cilium": [
+        "Spodoptera",
+        "Noctuidae"
+    ],
+    "Spodoptera eridania": [
+        "Spodoptera",
+        "Noctuidae"
+    ],
+    "Spodoptera exigua": [
+        "Spodoptera",
+        "Noctuidae"
+    ],
+    "Spodoptera littoralis": [
+        "Spodoptera",
+        "Noctuidae"
+    ],
+    "Spodoptera litura": [
+        "Spodoptera",
+        "Noctuidae"
+    ],
+    "Standfussiana lucernea": [
+        "Standfussiana",
+        "Noctuidae"
+    ],
+    "Stilbia anomala": [
+        "Stilbia",
+        "Noctuidae"
+    ],
+    "Acronicta megacephala": [
+        "Acronicta",
+        "Noctuidae"
+    ],
+    "Sunira circellaris": [
+        "Sunira",
+        "Noctuidae"
+    ],
+    "Drasteria grandirena": [
+        "Drasteria",
+        "Erebidae"
+    ],
+    "Syngrapha interrogationis": [
+        "Syngrapha",
+        "Noctuidae"
+    ],
+    "Synthymia fixa": [
+        "Synthymia",
+        "Noctuidae"
+    ],
+    "Thalpophila matura": [
+        "Thalpophila",
+        "Noctuidae"
+    ],
+    "Tholera cespitis": [
+        "Tholera",
+        "Noctuidae"
+    ],
+    "Tholera decimalis": [
+        "Tholera",
+        "Noctuidae"
+    ],
+    "Thysanoplusia daubei": [
+        "Thysanoplusia",
+        "Noctuidae"
+    ],
+    "Thysanoplusia orichalcea": [
+        "Thysanoplusia",
+        "Noctuidae"
+    ],
+    "Tiliacea aurago": [
+        "Tiliacea",
+        "Noctuidae"
+    ],
+    "Tiliacea citrago": [
+        "Tiliacea",
+        "Noctuidae"
+    ],
+    "Trachea atriplicis": [
+        "Trachea",
+        "Noctuidae"
+    ],
+    "Trichoplusia ni": [
+        "Trichoplusia",
+        "Noctuidae"
+    ],
+    "Trigonophora flammea": [
+        "Trigonophora",
+        "Noctuidae"
+    ],
+    "Tyta luctuosa": [
+        "Tyta",
+        "Erebidae"
+    ],
+    "Valeria oleagina": [
+        "Valeria",
+        "Noctuidae"
+    ],
+    "Vittaplusia vittata": [
+        "Vittaplusia",
+        "Noctuidae"
+    ],
+    "Xanthia togata": [
+        "Xanthia",
+        "Noctuidae"
+    ],
+    "Xanthopastis timais": [
+        "Xanthopastis",
+        "Noctuidae"
+    ],
+    "Xestia agathina": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia alpicola": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia ashworthii": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia baja": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia c-nigrum": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia castanea": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia ditrapezium": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia sexstrigata": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia rhomboidea": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia triangulum": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xestia xanthographa": [
+        "Xestia",
+        "Noctuidae"
+    ],
+    "Xylena exsoleta": [
+        "Xylena",
+        "Noctuidae"
+    ],
+    "Xylena solidaginis": [
+        "Xylena",
+        "Noctuidae"
+    ],
+    "Xylena vetusta": [
+        "Xylena",
+        "Noctuidae"
+    ],
+    "Xylocampa areola": [
+        "Xylocampa",
+        "Noctuidae"
+    ],
+    "Bena bicolorana": [
+        "Bena",
+        "Nolidae"
+    ],
+    "Earias biplaga": [
+        "Earias",
+        "Nolidae"
+    ],
+    "Earias clorana": [
+        "Earias",
+        "Nolidae"
+    ],
+    "Earias insulana": [
+        "Earias",
+        "Nolidae"
+    ],
+    "Earias vittella": [
+        "Earias",
+        "Nolidae"
+    ],
+    "Meganola albula": [
+        "Meganola",
+        "Nolidae"
+    ],
+    "Meganola strigula": [
+        "Meganola",
+        "Nolidae"
+    ],
+    "Nola aerugula": [
+        "Nola",
+        "Nolidae"
+    ],
+    "Nola chlamitulalis": [
+        "Nola",
+        "Nolidae"
+    ],
+    "Nola confusalis": [
+        "Nola",
+        "Nolidae"
+    ],
+    "Nola cucullatella": [
+        "Nola",
+        "Nolidae"
+    ],
+    "Nycteola asiatica": [
+        "Nycteola",
+        "Nolidae"
+    ],
+    "Nycteola degenerana": [
+        "Nycteola",
+        "Nolidae"
+    ],
+    "Nycteola revayana": [
+        "Nycteola",
+        "Nolidae"
+    ],
+    "Nycteola siculana": [
+        "Nycteola",
+        "Nolidae"
+    ],
+    "Pseudoips prasinana": [
+        "Pseudoips",
+        "Nolidae"
+    ],
+    "Cerura erminea": [
+        "Cerura",
+        "Notodontidae"
+    ],
+    "Cerura vinula": [
+        "Cerura",
+        "Notodontidae"
+    ],
+    "Clostera anachoreta": [
+        "Clostera",
+        "Notodontidae"
+    ],
+    "Clostera curtula": [
+        "Clostera",
+        "Notodontidae"
+    ],
+    "Clostera pigra": [
+        "Clostera",
+        "Notodontidae"
+    ],
+    "Drymonia dodonaea": [
+        "Drymonia",
+        "Notodontidae"
+    ],
+    "Drymonia ruficornis": [
+        "Drymonia",
+        "Notodontidae"
+    ],
+    "Furcula bicuspis": [
+        "Furcula",
+        "Notodontidae"
+    ],
+    "Furcula bifida": [
+        "Furcula",
+        "Notodontidae"
+    ],
+    "Furcula furcula": [
+        "Furcula",
+        "Notodontidae"
+    ],
+    "Gluphisia crenata": [
+        "Gluphisia",
+        "Notodontidae"
+    ],
+    "Harpyia milhauseri": [
+        "Harpyia",
+        "Notodontidae"
+    ],
+    "Leucodonta bicoloria": [
+        "Leucodonta",
+        "Notodontidae"
+    ],
+    "Notodonta dromedarius": [
+        "Notodonta",
+        "Notodontidae"
+    ],
+    "Notodonta torva": [
+        "Notodonta",
+        "Notodontidae"
+    ],
+    "Notodonta tritophus": [
+        "Notodonta",
+        "Notodontidae"
+    ],
+    "Notodonta ziczac": [
+        "Notodonta",
+        "Notodontidae"
+    ],
+    "Odontosia carmelita": [
+        "Odontosia",
+        "Notodontidae"
+    ],
+    "Peridea anceps": [
+        "Peridea",
+        "Notodontidae"
+    ],
+    "Phalera bucephala": [
+        "Phalera",
+        "Notodontidae"
+    ],
+    "Pheosia gnoma": [
+        "Pheosia",
+        "Notodontidae"
+    ],
+    "Pheosia tremula": [
+        "Pheosia",
+        "Notodontidae"
+    ],
+    "Pterostoma palpina": [
+        "Pterostoma",
+        "Notodontidae"
+    ],
+    "Ptilodon capucina": [
+        "Ptilodon",
+        "Notodontidae"
+    ],
+    "Ptilodon cucullina": [
+        "Ptilodon",
+        "Notodontidae"
+    ],
+    "Ptilophora plumigera": [
+        "Ptilophora",
+        "Notodontidae"
+    ],
+    "Stauropus fagi": [
+        "Stauropus",
+        "Notodontidae"
+    ],
+    "Thaumetopoea pityocampa": [
+        "Thaumetopoea",
+        "Notodontidae"
+    ],
+    "Thaumetopoea processionea": [
+        "Thaumetopoea",
+        "Notodontidae"
+    ],
+    "Trichiocercus sparshalli": [
+        "Trichiocercus",
+        "Notodontidae"
+    ],
+    "Saturnia pavonia": [
+        "Saturnia",
+        "Saturniidae"
+    ],
+    "Saturnia pyri": [
+        "Saturnia",
+        "Saturniidae"
+    ],
+    "Bembecia ichneumoniformis": [
+        "Bembecia",
+        "Sesiidae"
+    ],
+    "Paranthrene tabaniformis": [
+        "Paranthrene",
+        "Sesiidae"
+    ],
+    "Pennisetia hylaeiformis": [
+        "Pennisetia",
+        "Sesiidae"
+    ],
+    "Pyropteron chrysidiformis": [
+        "Pyropteron",
+        "Sesiidae"
+    ],
+    "Synansphecia muscaeformis": [
+        "Synansphecia",
+        "Sesiidae"
+    ],
+    "Sesia apiformis": [
+        "Sesia",
+        "Sesiidae"
+    ],
+    "Sesia bembeciformis": [
+        "Sesia",
+        "Sesiidae"
+    ],
+    "Synanthedon andrenaeformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon culiciformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon flaviventris": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon formicaeformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon myopaeformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon scoliaeformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon spheciformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon tipuliformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon vespiformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Acherontia atropos": [
+        "Acherontia",
+        "Sphingidae"
+    ],
+    "Agrius cingulata": [
+        "Agrius",
+        "Sphingidae"
+    ],
+    "Agrius convolvuli": [
+        "Agrius",
+        "Sphingidae"
+    ],
+    "Daphnis nerii": [
+        "Daphnis",
+        "Sphingidae"
+    ],
+    "Deilephila elpenor": [
+        "Deilephila",
+        "Sphingidae"
+    ],
+    "Deilephila porcellus": [
+        "Deilephila",
+        "Sphingidae"
+    ],
+    "Hemaris fuciformis": [
+        "Hemaris",
+        "Sphingidae"
+    ],
+    "Hemaris tityus": [
+        "Hemaris",
+        "Sphingidae"
+    ],
+    "Hippotion celerio": [
+        "Hippotion",
+        "Sphingidae"
+    ],
+    "Hyles euphorbiae": [
+        "Hyles",
+        "Sphingidae"
+    ],
+    "Hyles gallii": [
+        "Hyles",
+        "Sphingidae"
+    ],
+    "Hyles hippophaes": [
+        "Hyles",
+        "Sphingidae"
+    ],
+    "Hyles lineata": [
+        "Hyles",
+        "Sphingidae"
+    ],
+    "Hyles livornica": [
+        "Hyles",
+        "Sphingidae"
+    ],
+    "Hyles nicaea": [
+        "Hyles",
+        "Sphingidae"
+    ],
+    "Laothoe populi": [
+        "Laothoe",
+        "Sphingidae"
+    ],
+    "Macroglossum stellatarum": [
+        "Macroglossum",
+        "Sphingidae"
+    ],
+    "Manduca quinquemaculatus": [
+        "Manduca",
+        "Sphingidae"
+    ],
+    "Manduca rustica": [
+        "Manduca",
+        "Sphingidae"
+    ],
+    "Manduca sexta": [
+        "Manduca",
+        "Sphingidae"
+    ],
+    "Mimas tiliae": [
+        "Mimas",
+        "Sphingidae"
+    ],
+    "Nephele accentifera": [
+        "Nephele",
+        "Sphingidae"
+    ],
+    "Proserpinus proserpina": [
+        "Proserpinus",
+        "Sphingidae"
+    ],
+    "Smerinthus ocellata": [
+        "Smerinthus",
+        "Sphingidae"
+    ],
+    "Sphinx drupiferarum": [
+        "Sphinx",
+        "Sphingidae"
+    ],
+    "Sphinx ligustri": [
+        "Sphinx",
+        "Sphingidae"
+    ],
+    "Sphinx pinastri": [
+        "Sphinx",
+        "Sphingidae"
+    ],
+    "Adscita geryon": [
+        "Adscita",
+        "Zygaenidae"
+    ],
+    "Adscita statices": [
+        "Adscita",
+        "Zygaenidae"
+    ],
+    "Jordanita globulariae": [
+        "Jordanita",
+        "Zygaenidae"
+    ],
+    "Sinica sinica": [
+        "Sinica",
+        "Zygaenidae"
+    ],
+    "Zygaena exulans": [
+        "Zygaena",
+        "Zygaenidae"
+    ],
+    "Zygaena filipendulae": [
+        "Zygaena",
+        "Zygaenidae"
+    ],
+    "Zygaena lonicerae": [
+        "Zygaena",
+        "Zygaenidae"
+    ],
+    "Zygaena loti": [
+        "Zygaena",
+        "Zygaenidae"
+    ],
+    "Zygaena purpuralis": [
+        "Zygaena",
+        "Zygaenidae"
+    ],
+    "Zygaena trifolii": [
+        "Zygaena",
+        "Zygaenidae"
+    ],
+    "Zygaena viciae": [
+        "Zygaena",
+        "Zygaenidae"
+    ]
+}
