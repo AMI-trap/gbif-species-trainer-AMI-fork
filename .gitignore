@@ -1,5 +1,6 @@
 data_download/output_data/
 
+*.DS_Store
 ../.DS_Store
 ./.DS_Store
 ./data_download/.DS_Store
