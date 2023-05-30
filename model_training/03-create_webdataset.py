@@ -49,23 +49,23 @@ def create_webdataset(args):
     """creates dataset samples"""
 
     # user input variables
-    dataset_dir = args.dataset_dir
-    dataset_filepath = args.dataset_filepath
-    label_filepath = args.label_filepath
-    img_resize = args.image_resize
+    dataset_dir       = args.dataset_dir
+    dataset_filepath  = args.dataset_filepath
+    label_filepath    = args.label_filepath
+    img_resize        = args.image_resize
     webdataset_patern = args.webdataset_patern
-    max_shard_size = args.max_shard_size
-    random_seed = args.random_seed
+    max_shard_size    = args.max_shard_size
+    random_seed       = args.random_seed
 
     # set random seed
     set_random_seed(random_seed)
 
     # define other variables
-    dataset_df = pd.read_csv(dataset_filepath)
-    dataset_df = dataset_df.sample(frac=1)
-    label_list = json.load(open(label_filepath))
-    sink = wds.ShardWriter(webdataset_patern, maxsize=max_shard_size)
-    corrupt_img = 0
+    dataset_df    = pd.read_csv(dataset_filepath)
+    dataset_df    = dataset_df.sample(frac=1)
+    label_list    = json.load(open(label_filepath))
+    sink          = wds.ShardWriter(webdataset_patern, maxsize=max_shard_size)
+    corrupt_img   = 0
     not_found_img = 0
 
     for _, row in dataset_df.iterrows():

@@ -55,33 +55,33 @@ def train_model(args):
     print(json.dumps(config_data, indent=3))
 
     wandb.init(
-        project=config_data["training"]["wandb"]["project"],
-        entity=config_data["training"]["wandb"]["entity"],
+        project = config_data["training"]["wandb"]["project"],
+        entity  = config_data["training"]["wandb"]["entity"],
     )
     wandb.init(settings=wandb.Settings(start_method="fork"))
 
-    image_resize = config_data["training"]["image_resize"]
-    batch_size = config_data["training"]["batch_size"]
-    label_list = config_data["dataset"]["label_info"]
-    epochs = config_data["training"]["epochs"]
-    loss_name = config_data["training"]["loss"]["name"]
-    early_stop = config_data["training"]["early_stopping"]
+    image_resize   = config_data["training"]["image_resize"]
+    batch_size     = config_data["training"]["batch_size"]
+    label_list     = config_data["dataset"]["label_info"]
+    epochs         = config_data["training"]["epochs"]
+    loss_name      = config_data["training"]["loss"]["name"]
+    early_stop     = config_data["training"]["early_stopping"]
     start_val_loss = config_data["training"]["start_val_loss"]
 
     label_read = json.load(open(label_list))
     num_classes = len(label_read["species"])
 
-    model_type = config_data["model"]["type"]
+    model_type      = config_data["model"]["type"]
     preprocess_mode = config_data["model"]["preprocess_mode"]
 
-    optimizer = config_data["training"]["optimizer"]["name"]
+    optimizer     = config_data["training"]["optimizer"]["name"]
     learning_rate = config_data["training"]["optimizer"]["learning_rate"]
-    momentum = config_data["training"]["optimizer"]["momentum"]
-    lr_scheduler = config_data["training"]["lr_scheduler"]["name"]
+    momentum      = config_data["training"]["optimizer"]["momentum"]
+    lr_scheduler  = config_data["training"]["lr_scheduler"]["name"]
 
     model_save_path = config_data["training"]["model_save_path"]
-    model_name = config_data["training"]["model_name"]
-    model_version = config_data["training"]["version"]
+    model_name      = config_data["training"]["model_name"]
+    model_version   = config_data["training"]["version"]
     dtstr = datetime.datetime.now()
     dtstr = dtstr.strftime("%Y-%m-%d-%H-%M")
     save_path = (
@@ -97,7 +97,7 @@ def train_model(args):
     )
 
     taxon_hierarchy = config_data["dataset"]["taxon_hierarchy"]
-    label_info = config_data["dataset"]["label_info"]
+    label_info      = config_data["dataset"]["label_info"]
 
     # Loading model
     # Get cpu or gpu device for training.
@@ -114,22 +114,22 @@ def train_model(args):
     # Loading data
     # Training data loader
     train_dataloader = dataloader.build_webdataset_pipeline(
-        sharedurl=args.train_webdataset_url,
-        input_size=image_resize,
-        batch_size=batch_size,
-        set_type="train",
-        num_workers=args.dataloader_num_workers,
-        preprocess_mode=preprocess_mode,
+        sharedurl       = args.train_webdataset_url,
+        input_size      = image_resize,
+        batch_size      = batch_size,
+        set_type        = "train",
+        num_workers     = args.dataloader_num_workers,
+        preprocess_mode = preprocess_mode,
     )
 
     # Validation data loader
     val_dataloader = dataloader.build_webdataset_pipeline(
-        sharedurl=args.val_webdataset_url,
-        input_size=image_resize,
-        batch_size=batch_size,
-        set_type="validation",
-        num_workers=args.dataloader_num_workers,
-        preprocess_mode=preprocess_mode,
+        sharedurl       = args.val_webdataset_url,
+        input_size      = image_resize,
+        batch_size      = batch_size,
+        set_type        = "validation",
+        num_workers     = args.dataloader_num_workers,
+        preprocess_mode = preprocess_mode,
     )
 
     # Test data loader
@@ -153,14 +153,14 @@ def train_model(args):
     early_stp_count = 0
 
     for epoch in range(epochs):
-        train_loss = 0
+        train_loss      = 0
         train_batch_cnt = 0
-        val_loss = 0
-        val_batch_cnt = 0
-        s_time = time.time()
+        val_loss        = 0
+        val_batch_cnt   = 0
+        s_time          = time.time()
 
         global_microacc_data_train = None
-        global_microacc_data_val = None
+        global_microacc_data_val   = None
 
         # model training on training dataset
         model.train()
@@ -241,7 +241,7 @@ def train_model(args):
         )
         wandb.log({"learning rate": scheduler.get_last_lr(), "epoch": epoch})
         final_micro_accuracy_train = final_microacc(global_microacc_data_train)
-        final_micro_accuracy_val = final_microacc(global_microacc_data_val)
+        final_micro_accuracy_val   = final_microacc(global_microacc_data_val)
         wandb.log(
             {
                 "train_micro_species_top1": final_micro_accuracy_train[

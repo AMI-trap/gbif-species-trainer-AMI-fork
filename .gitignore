@@ -1,5 +1,7 @@
 data_download/output_data/
 model_training/train/
+model_training/val/
+model_training/test/
 
 *.DS_Store
 ../.DS_Store

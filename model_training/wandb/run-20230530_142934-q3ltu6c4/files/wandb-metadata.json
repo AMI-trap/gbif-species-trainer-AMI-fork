@@ -1,0 +1,45 @@
+{
+    "os": "macOS-13.3.1-arm64-arm-64bit",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-05-30T13:29:36.327087",
+    "startedAt": "2023-05-30T13:29:34.737338",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_webdataset_url",
+        "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/train/train-500-{000000..000013}.tar",
+        "--val_webdataset_url",
+        "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/val/val-500-{000000..000003}.tar",
+        "--test_webdataset_url",
+        "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/test/test-500-{000000..000001}.tar",
+        "--config_file",
+        "config/01-config_uk-denmark_efficientnet_rep.json",
+        "--dataloader_num_workers",
+        "6"
+    ],
+    "state": "running",
+    "program": "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/04-train_model.py",
+    "codePath": "model_training/04-train_model.py",
+    "git": {
+        "remote": "git@github.com:AMI-trap/gbif-species-trainer-AMI-fork.git",
+        "commit": "d404fd5a5d577d4641f3286d6a42e2daf3c80182"
+    },
+    "email": "levan.bokeria@gmail.com",
+    "root": "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork",
+    "host": "MAC-ATI1199",
+    "username": "lbokeria",
+    "executable": "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 165.11076736450195
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

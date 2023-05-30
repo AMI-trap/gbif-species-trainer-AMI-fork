@@ -1,0 +1,40 @@
+{
+    "note": "This config file is for training on the UK-Denmark moth checklist.",
+    
+    "model":{
+        "type": "efficientnetv2-b3",  
+        "preprocess_mode": "tf"
+    },
+    
+    "dataset":{
+        "label_info": "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/uksi_numeric_labels_25Apr2023.json",
+        "taxon_hierarchy": "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/uksi_taxon_hierarchy_25Apr2023.json"
+    },
+    
+    "training":{
+        "batch_size": 64,
+        "image_resize": 300,
+        "epochs": 1,
+        "early_stopping": 4,
+        "start_val_loss": 100000000,
+        "loss":{
+                "name": "crossentropy"
+                },
+        "optimizer":{
+                "name": "sgd",
+                "learning_rate": 0.001,
+                "momentum": 0.9
+                },
+        "lr_scheduler":{
+            "name": "cosine_annealing",
+            "lr_min": 0.0005 
+                },
+        "wandb":{
+                "entity": "gbif",
+                "project": "UKSI-Classifier"
+                },
+        "model_save_path": "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/logs/",
+        "model_name": "uksi-moth-model-rep",
+        "version": "v01"
+    }
+}

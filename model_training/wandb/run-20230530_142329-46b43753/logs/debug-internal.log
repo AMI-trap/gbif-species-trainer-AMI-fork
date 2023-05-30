@@ -1,0 +1,49 @@
+2023-05-30 14:23:29,044 INFO    StreamThr :36589 [internal.py:wandb_internal():86] W&B internal server running at pid: 36589, started at: 2023-05-30 14:23:29.043572
+2023-05-30 14:23:29,045 DEBUG   HandlerThread:36589 [handler.py:handle_request():144] handle_request: status
+2023-05-30 14:23:29,053 INFO    WriterThread:36589 [datastore.py:open_for_write():85] open: /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/wandb/run-20230530_142329-46b43753/run-46b43753.wandb
+2023-05-30 14:23:29,053 DEBUG   SenderThread:36589 [sender.py:send():375] send: header
+2023-05-30 14:23:29,076 DEBUG   SenderThread:36589 [sender.py:send():375] send: run
+2023-05-30 14:23:29,408 ERROR   SenderThread:36589 [internal_api.py:execute():288] 404 response executing GraphQL.
+2023-05-30 14:23:29,408 ERROR   SenderThread:36589 [internal_api.py:execute():289] {"errors":[{"message":"project not found","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-05-30 14:23:29,408 ERROR   SenderThread:36589 [sender.py:send_run():979] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 285, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 56, in execute
+    request.raise_for_status()
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 977, in send_run
+    self._init_run(run, config_value_dict)
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 1015, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1690, in upsert_run
+    response = self.gql(
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 257, in gql
+    ret = self._retry_gql(
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/util.py", line 907, in check_retry_fn
+    return fallback_retry_fn(e)
+  File "/Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/lib/python3.9/site-packages/wandb/util.py", line 849, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2023-05-30 14:23:29,527 DEBUG   HandlerThread:36589 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-30 14:23:29,527 INFO    HandlerThread:36589 [handler.py:finish():842] shutting down handler
+2023-05-30 14:23:30,080 INFO    WriterThread:36589 [datastore.py:close():298] close: /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/wandb/run-20230530_142329-46b43753/run-46b43753.wandb
+2023-05-30 14:23:30,418 INFO    SenderThread:36589 [sender.py:finish():1550] shutting down sender
