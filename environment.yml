@@ -20,6 +20,7 @@ dependencies:
   - tqdm
   - wandb
   - webdataset
+  - python-dwca-reader
   - pip:
     - pygbif
     - torchsummary
