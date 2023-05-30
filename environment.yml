@@ -21,6 +21,7 @@ dependencies:
   - wandb
   - webdataset
   - python-dwca-reader
+  - tensorflow
   - pip:
     - pygbif
     - torchsummary
