@@ -146,9 +146,13 @@ def download_data(args):
     dwca_file = args.dwca_file
 
     with DwCAReader(dwca_file) as dwca:
+        print('reading the multimedia.txt file...')
         media_df = dwca.pd_read("multimedia.txt", parse_dates=True, on_bad_lines="skip")
+        print('finished')
 
+        print('reading the occurrence.txt file...')
         occ_df = dwca.pd_read("occurrence.txt", parse_dates=True, on_bad_lines="skip")
+        print('finished!')
 
     # read species list
     moth_data = pd.read_csv(species_list)
