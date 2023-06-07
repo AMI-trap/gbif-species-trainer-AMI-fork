@@ -1,14 +1,14 @@
+name: /bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/
 channels:
   - pytorch
   - defaults
 dependencies:
   - python=3.8
-  - cudatoolkit=11.8
+  - cudatoolkit=10.2
   - torchvision
   - pytorch
   - opencv
   - tensorflow
-  - tqdm
   - pip:
     - pygbif
     - scikit-learn
@@ -16,7 +16,6 @@ dependencies:
     - pandas
     - wandb
     - keras
-    - python-dwca-reader
 
 
 
