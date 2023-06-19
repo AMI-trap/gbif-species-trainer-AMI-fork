@@ -186,7 +186,20 @@ def download_data(args):
     # if resuming the download session
     if args.resume_session == "True":
         existing_data = pd.read_csv(write_dir + "data_statistics.csv", dtype=data_type)
-
+    else:
+        # Take the species_list file and turn into a data_statistics.csv file with a new
+        # image_count column with 0 for each entry.
+        existing_data = moth_data[["accepted_taxon_key",
+                                   "family_name",
+                                   "genus_name",
+                                   "search_species_name",
+                                   "gbif_species_name"]]
+        
+        existing_data["image_count"] = 0
+        
+        # Save it
+        existing_data.to_csv(write_dir + "data_statistics.csv", index=False)
+        
     # fetch data using multi-processing
     with Pool() as pool:
         pool.map(fetch_image_data, taxon_keys)
