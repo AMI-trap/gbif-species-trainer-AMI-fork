@@ -64,11 +64,16 @@ def fetch_image_data(taxon_key: int):
 
     # species avaiable on gbif but data already exists
     elif taxon_key in existing_data["accepted_taxon_key"].tolist():
+
         taxon_data = moth_data[moth_data["accepted_taxon_key"] == taxon_key]
         species_name = taxon_data["gbif_species_name"].item()
+        image_count = taxon_data["image_count"].item()
 
-        print(f"Already downloaded for {species_name}.", flush=True)
-        return
+        print('Image count: ' + image_count)
+
+        if image_count > 0:
+            print(f"Already downloaded for {species_name}.", flush=True)
+            return
 
     # species available on gbif but data does not exist
     else:
@@ -94,7 +99,8 @@ def fetch_image_data(taxon_key: int):
 
         occurrence_data = occ_df.loc[occ_df["acceptedTaxonKey"] == taxon_key]
         total_occ = len(occurrence_data)
-        print(f"Downloading for {species_name} which has a total of {total_occ} image occurrences.", flush=True)
+        print(
+            f"Downloading for {species_name} which has a total of {total_occ} image occurrences.", flush=True)
         occurrence_data = occurrence_data.sample(frac=1)
         image_count = 0
         meta_data = {}
@@ -131,7 +137,8 @@ def fetch_image_data(taxon_key: int):
 
             with open(write_location + "/" + "meta_data.json", "w") as outfile:
                 json.dump(meta_data, outfile)
-        print(f"Downloading complete for {species_name} with {image_count} images.", flush=True)
+        print(
+            f"Downloading complete for {species_name} with {image_count} images.", flush=True)
 
     return
 
@@ -147,11 +154,13 @@ def download_data(args):
 
     with DwCAReader(dwca_file) as dwca:
         print('reading the multimedia.txt file...')
-        media_df = dwca.pd_read("multimedia.txt", parse_dates=True, on_bad_lines="skip")
+        media_df = dwca.pd_read(
+            "multimedia.txt", parse_dates=True, on_bad_lines="skip")
         print('finished')
 
         print('reading the occurrence.txt file...')
-        occ_df = dwca.pd_read("occurrence.txt", parse_dates=True, on_bad_lines="skip")
+        occ_df = dwca.pd_read(
+            "occurrence.txt", parse_dates=True, on_bad_lines="skip")
         print('finished!')
 
     # read species list
@@ -185,7 +194,8 @@ def download_data(args):
 
     # if resuming the download session
     if args.resume_session == "True":
-        existing_data = pd.read_csv(write_dir + "data_statistics.csv", dtype=data_type)
+        existing_data = pd.read_csv(
+            write_dir + "data_statistics.csv", dtype=data_type)
     else:
         # Take the species_list file and turn into a data_statistics.csv file with a new
         # image_count column with 0 for each entry.
@@ -194,12 +204,12 @@ def download_data(args):
                                    "genus_name",
                                    "search_species_name",
                                    "gbif_species_name"]]
-        
+
         existing_data["image_count"] = 0
-        
+
         # Save it
         existing_data.to_csv(write_dir + "data_statistics.csv", index=False)
-        
+
     # fetch data using multi-processing
     with Pool() as pool:
         pool.map(fetch_image_data, taxon_keys)
