@@ -7,8 +7,12 @@ python 01-fetch_taxon_keys.py \
 
 
 python 02-fetch_gbif_moth_data.py \
---write_directory /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_uksi_macro_moths_small_try_Erebidae/  \
---dwca_file /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/specific_four_species.zip \
+--write_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/  \
+--dwca_file /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/cossidae.zip \
 --species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-small-try-keys.csv \
 --max_images_per_species 2 \
 --resume_session False 
+
+python 03-update_data_statistics.py \
+--data_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/ \
+--species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-small-try-keys.csv
