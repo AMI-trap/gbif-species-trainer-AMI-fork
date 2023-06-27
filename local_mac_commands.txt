@@ -20,7 +20,7 @@ python 02-fetch_gbif_moth_data.py \
 --dwca_file /Users/lbokeria/Downloads/erebidae.zip \
 --species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-small-try-keys-erebidae-amata-phegea.csv \
 --max_images_per_species 2 \
---resume_session True 
+--resume_session False 
 
 
 
