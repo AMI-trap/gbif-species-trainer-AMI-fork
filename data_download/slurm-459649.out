@@ -1,0 +1,21 @@
+Miniconda3/4.10.3
+/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/dwca/read.py:203: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = read_csv(self.absolute_temporary_path(relative_path), **kwargs)
+/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/dwca/read.py:203: DtypeWarning: Columns (2,9,26,35,39,42,46,47,48,54,56,57,58,59,60,61,62,64,65,66,67,68,69,70,71,74,75,76,77,78,79,81,82,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,109,110,111,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,135,136,142,143,144,145,147,148,149,150,151,153,155,156,157,158,159,160,161,162,163,165,167,170,171,172,173,174,175,176,177,178,179,180,181,183,184,185,186,187,189,190,191,192,193,195,201,204,205,207,210,211,212,214,215,217,219,220,221,222,224,225,227,228,229,230,231,232,242,243,247,249,250,251,252,253,254,255,256) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = read_csv(self.absolute_temporary_path(relative_path), **kwargs)
+Traceback (most recent call last):
+  File "02-fetch_gbif_moth_data.py", line 220, in <module>
+    download_data(args)
+  File "02-fetch_gbif_moth_data.py", line 154, in download_data
+    moth_data = pd.read_csv(species_list)
+  File "/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/uksi-macro-moths-keys.csv'

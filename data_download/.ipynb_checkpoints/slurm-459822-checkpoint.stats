@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Thu Jun 29 13:31:23 2023 for rybf4168(102339)
+| Identity jobid 459822 jobname 02-fetch_gbif_moth_data.sh
+| Running against project vjgo8416-amber and in partition baskerville-a100_40
+| Requested cpu=36,mem=108G,node=1,billing=36 - 02:00:00 walltime
+| Assigned to nodes bask-pg0308u23a
+| Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data.sh
+| WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Thu Jun 29 13:37:16 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (03:31.988 cputime, 5799713988K memory used) - 00:05:53 walltime
+| JobState COMPLETING - Reason OutOfMemory
+| Exitcode 0:125
++--------------------------------------------------------------------------+
