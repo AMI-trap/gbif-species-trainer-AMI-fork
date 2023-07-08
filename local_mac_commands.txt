@@ -16,12 +16,19 @@ python 02-fetch_gbif_moth_data.py \
 
 For erebidae: 
 python 02-fetch_gbif_moth_data.py \
---write_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_uksi_macro_moths_small_try_Erebidae_amata_phegea/  \
+--write_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_uksi_macro_moths_small_try_Erebidae/  \
 --dwca_file /Users/lbokeria/Downloads/erebidae.zip \
 --species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-small-try-keys-erebidae-amata-phegea.csv \
 --max_images_per_species 2 \
 --resume_session False 
 
+Serial:
+python 02-fetch_gbif_moth_data_serial.py \
+--write_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_uksi_macro_moths_small_try_Erebidae/  \
+--dwca_file /Users/lbokeria/Downloads/erebidae.zip \
+--species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-small-try-keys-erebidae-amata-phegea.csv \
+--max_images_per_species 2 \
+--resume_session False 
 
 
 Model training 
