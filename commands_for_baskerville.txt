@@ -13,6 +13,14 @@ python 02-fetch_gbif_moth_data.py \
 --max_images_per_species 3 \
 --resume_session True 
 
+python 02-fetch_gbif_moth_data.py \
+--write_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/lepidoptera/  \
+--dwca_file /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/lepidoptera.zip \
+--species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
+--max_images_per_species 2 \
+--resume_session False
+
+
 python 03-update_data_statistics.py \
 --data_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/erebidae/ \
 --species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-small-try-keys-erebidae-amata-phegea.csv

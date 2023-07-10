@@ -188,9 +188,9 @@ def download_data(args):
     #     pool.map(fetch_image_data, taxon_keys)
         
     # Try the serial approach 
-    for i_taxon_key in taxon_keys:
+    for count, i_taxon_key in enumerate(taxon_keys):
         print("Starting for ")
-        print(i_taxon_key)
+        print(count, i_taxon_key)
         fetch_image_data(i_taxon_key)
         print("Finished")
 
