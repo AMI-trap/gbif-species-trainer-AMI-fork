@@ -4,7 +4,7 @@
 #SBATCH --time 00:30:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
-#SBATCH --mem=10G
+#SBATCH --mem=200G
 
 # Module loading
 module purge # unloads and loaded modules and resets the environment
@@ -27,6 +27,6 @@ conda activate "${CONDA_ENV_PATH}"
 python 02-fetch_gbif_moth_data_serial.py \
 --write_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/noctuidae/  \
 --dwca_file /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/noctuidae.zip \
---species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
+--species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys-no-synonym.csv \
 --max_images_per_species 2 \
 --resume_session False
