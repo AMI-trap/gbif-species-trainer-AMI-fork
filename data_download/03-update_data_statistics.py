@@ -17,7 +17,6 @@ def update_data_statistics(args):
     """main function for updating the data statistics file in the root moths folder"""
 
     species_list = pd.read_csv(args.species_checklist)
-    datacount_file = pd.read_csv(args.data_directory + "data_statistics.csv")
 
     columns = [
         "accepted_taxon_key",
@@ -28,13 +27,20 @@ def update_data_statistics(args):
         "image_count",
     ]
 
+    # If data_statistics.csv exists, load it
+    if os.path.isfile(args.data_directory + "data_statistics.csv"):
+        datacount_file = pd.read_csv(
+            args.data_directory + "data_statistics.csv")
+    else:
+        datacount_file = pd.DataFrame(columns=columns, dtype=object)
+
     for _, row in species_list.iterrows():
         family = row["family_name"]
         genus = row["genus_name"]
         search_species = row["search_species_name"]
         gbif_species = row["gbif_species_name"]
         taxon_key = row["accepted_taxon_key"]
-      
+
         # taxa not found in gbif backbone
         if taxon_key == -1:
             # append data if not already there
