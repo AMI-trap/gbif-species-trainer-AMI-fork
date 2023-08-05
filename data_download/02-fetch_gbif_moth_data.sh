@@ -1,9 +1,10 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 02:00:00
+#SBATCH --time 01:00:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
+#SBATCH --mem=200G
 
 # Module loading
 module purge # unloads and loaded modules and resets the environment
@@ -24,8 +25,8 @@ conda activate "${CONDA_ENV_PATH}"
 # Execute your python programme
 
 python 02-fetch_gbif_moth_data.py \
---write_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/small_try/  \
---dwca_file /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/erebidae.zip \
+--write_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/noctuidae_parallel/  \
+--dwca_file /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/noctuidae.zip \
 --species_checklist /bask/homes/r/rybf4168/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
---max_images_per_species 20 \
+--max_images_per_species 2 \
 --resume_session False

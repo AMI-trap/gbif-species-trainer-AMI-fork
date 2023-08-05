@@ -74,6 +74,13 @@ def fetch_image_data(taxon_key: int):
     else:
         # get taxa information specific to the species
         taxon_data = moth_data[moth_data["accepted_taxon_key"] == taxon_key]
+
+        # If taxon_data contains synonym entries in addition to accepted species names,
+        # remove the synonym entries. 
+        if len(taxon_data.index) > 1:
+            # Find the synonim rows and remove
+            taxon_data = taxon_data[taxon_data["status"] != "SYNONYM"]
+
         family_name = taxon_data["family_name"].item()
         genus_name = taxon_data["genus_name"].item()
         species_name = taxon_data["gbif_species_name"].item()
