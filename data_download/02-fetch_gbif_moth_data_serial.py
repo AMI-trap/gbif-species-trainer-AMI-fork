@@ -80,7 +80,7 @@ def fetch_image_data(taxon_key: int):
         if len(taxon_data.index) > 1:
             # Find the synonim rows and remove
             taxon_data = taxon_data[taxon_data["status"] != "SYNONYM"]
-            
+        
         family_name = taxon_data["family_name"].item()
         genus_name = taxon_data["genus_name"].item()
         species_name = taxon_data["gbif_species_name"].item()
