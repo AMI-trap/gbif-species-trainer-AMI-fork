@@ -25,8 +25,8 @@ conda activate "${CONDA_ENV_PATH}"
 # Execute your python programme
 
 python 02-fetch_gbif_moth_data_serial.py \
---write_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/noctuidae/  \
---dwca_file /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/noctuidae.zip \
+--write_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/drepanidae/  \
+--dwca_file /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/drepanidae.zip \
 --species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
 --max_images_per_species 2 \
 --resume_session False
