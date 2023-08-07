@@ -33,14 +33,22 @@ python 02-fetch_gbif_moth_data_serial.py \
 Serial with sesiidae:
 
 python 02-fetch_gbif_moth_data_serial.py \
---write_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/sesiidae/  \
---dwca_file /Users/lbokeria/Documents/projects/gbif-species-trainer-data/dwca_files/Sesiidae.zip \
---species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys-no-synonym.csv \
+--write_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/drepanidae/  \
+--dwca_file /Users/lbokeria/Documents/projects/gbif-species-trainer-data/dwca_files/drepanidae.zip \
+--species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
 --max_images_per_species 2 \
 --resume_session False
 
 
-Model training 
+## Update the data stats 
+
+python 03-update_data_statistics.py \
+--data_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/ \
+--species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv
+
+
+
+# Model training 
 
 python 01-create_dataset_split.py \
 --root_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_new/ \
