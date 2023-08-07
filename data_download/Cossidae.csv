@@ -1,0 +1,4 @@
+accepted_taxon_key,order_name,family_name,genus_name,search_species_name,gbif_species_name,confidence,status,match_type,rank,source
+5101394,Lepidoptera,Cossidae,Cossus,Cossus cossus,Cossus cossus,98,ACCEPTED,EXACT,SPECIES,london31May2023
+1731598,Lepidoptera,Cossidae,Phragmataecia,Phragmataecia castaneae,Phragmataecia castaneae,99,ACCEPTED,EXACT,SPECIES,london31May2023
+1730978,Lepidoptera,Cossidae,Zeuzera,Zeuzera pyrina,Zeuzera pyrina,99,ACCEPTED,EXACT,SPECIES,london31May2023
