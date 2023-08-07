@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Mon Aug  7 18:42:14 2023 for rybf4168(102339)
+| Identity jobid 480190 jobname 02-fetch_gbif_moth_data_wrapper_hepialidae.sh
+| Running against project vjgo8416-amber and in partition baskerville-a100_40
+| Requested cpu=36,mem=10G,node=1,billing=36 - 02:00:00 walltime
+| Assigned to nodes bask-pg0308u18a
+| Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data_wrapper_hepialidae.sh
+| WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Mon Aug  7 19:45:36 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (05:02.551 cputime, 2412716K memory used) - 01:03:22 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+
