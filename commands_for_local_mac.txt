@@ -1,4 +1,4 @@
-Data data_download
+# Data data_download
 
 python 01-fetch_taxon_keys.py \
 --species_filepath uksi-macro-moths.csv \
@@ -38,6 +38,18 @@ python 02-fetch_gbif_moth_data_serial.py \
 --species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
 --max_images_per_species 2 \
 --resume_session False
+
+## Wrapper for downloading data
+
+python 02-fetch_gbif_moth_data_wrapper.py \
+--write_directory_lists /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/  \
+--write_directory_images /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/  \
+--dwca_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-data/dwca_files/ \
+--species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
+--max_images_per_species 2 \
+--resume_session False \
+--family_name Sesiidae
+
 
 
 ## Update the data stats 

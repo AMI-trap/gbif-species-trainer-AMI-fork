@@ -24,51 +24,88 @@ from multiprocessing import Pool
 
 from fetch_gbif_moth_data_serial import download_data, fetch_image_data, fetch_meta_data
 
-# If local mac
-# write_directory_lists  = "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/"
-# write_directory_images = "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/"
-# species_list           = "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-drepanidae-sesiidae-keys.csv"
-# dwca_directory         = "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/dwca_files/"
 
-# If on linux server
-write_directory_lists  = "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/"
-write_directory_images = "/bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/try_wrapper/"
-species_list           = "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv"
-dwca_directory         = "/bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/"
+def start_family_loop(args):
+    """"""
 
-# Read the main species list file
-moth_data = pd.read_csv(species_list)
+    write_directory_lists = args.write_directory_lists
+    write_directory_images = args.write_directory_images
+    species_list = args.species_checklist
+    dwca_directory = args.dwca_directory
+    max_images_per_species = args.max_images_per_species
+    resume_session = args.resume_session
+    family_name = args.family_name
 
-# Get all unique family names
-all_families = set(moth_data["family_name"])
+    # Read the main species list file
+    moth_data = pd.read_csv(species_list)
 
-print(all_families)
-
-for i_family in all_families:
-    
     # Filter the moth_data
-    i_moth_data = moth_data[moth_data["family_name"] == i_family]
-    
+    i_moth_data = moth_data[moth_data["family_name"] == family_name]
+
     # Save the moth_data file
-    i_moth_data.to_csv(os.path.join(write_directory_lists,i_family+".csv"),
+    i_moth_data.to_csv(os.path.join(write_directory_lists, family_name+".csv"),
                        index=False)
-    print("Saved the " + i_family + " file.")
-    
+    print("Saved the " + family_name + " file.")
+
     # Call the code to download the data
     print("Calling the download code")
 
     from types import SimpleNamespace
-    args = SimpleNamespace()
 
-    args.write_directory = write_directory_images
-    args.species_checklist = os.path.join(write_directory_lists,i_family+".csv")
-    args.max_images_per_species = 2
-    args.dwca_file = os.path.join(dwca_directory,i_family + ".zip")
-    args.resume_session = "False"
-    
-    download_data(args)
-    
+    args_download_data = SimpleNamespace()
+
+    args_download_data.write_directory = write_directory_images
+
+    args_download_data.species_checklist = os.path.join(
+        write_directory_lists, family_name+".csv")
+
+    args_download_data.max_images_per_species = max_images_per_species
+
+    args_download_data.dwca_file = os.path.join(
+        dwca_directory, family_name + ".zip")
+
+    args_download_data.resume_session = resume_session
+
+    download_data(args_download_data)
+
     # Delete the moth_data file
     # print("Deleting the csv file")
-    # os.remove(os.path.join(write_directory_lists,i_family + ".csv"))
-    
+    # os.remove(os.path.join(write_directory_lists,family_name + ".csv"))
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--write_directory_lists", help="path of the folder to save the split CSV files", required=True
+    )
+    parser.add_argument(
+        "--write_directory_images", help="path of the folder to save the gbif images", required=True
+    )
+    parser.add_argument(
+        "--dwca_directory", help="path of the folder with the darwin core archive zip files", required=True
+    )
+    parser.add_argument(
+        "--species_checklist",
+        help="path of csv file containing list of species names along with unique GBIF taxon keys",
+        required=True,
+    )
+    parser.add_argument(
+        "--family_name",
+        help="Which family name(s) to download images for",
+        required=True,
+    )
+    parser.add_argument(
+        "--max_images_per_species",
+        help="maximum number of images to download for any speices",
+        default=500,
+        type=int,
+    )
+    parser.add_argument(
+        "--resume_session",
+        help="False/True; whether resuming a previously stopped downloading session",
+        required=True,
+    )
+
+    args = parser.parse_args()
+
+    start_family_loop(args)

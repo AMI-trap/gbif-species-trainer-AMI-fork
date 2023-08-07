@@ -20,6 +20,17 @@ python 02-fetch_gbif_moth_data.py \
 --max_images_per_species 2 \
 --resume_session False
 
+## Wrapper
+
+python 02-fetch_gbif_moth_data_wrapper.py \
+--write_directory_lists /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/  \
+--write_directory_images /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/try_wrapper/  \
+--dwca_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/ \
+--species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
+--max_images_per_species 2 \
+--resume_session False \
+--family_name Sesiidae
+
 
 python 03-update_data_statistics.py \
 --data_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/erebidae/ \
