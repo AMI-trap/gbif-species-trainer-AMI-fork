@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/04-train_model.py", line 358, in <module>
+    train_model(args)
+  File "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/04-train_model.py", line 71, in train_model
+    label_read = json.load(open(label_list))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mila/a/aditya.jain/mothAI/gbif_species_trainer/model_training/data/uk-denmark_numeric_labels_25Apr2023.json'

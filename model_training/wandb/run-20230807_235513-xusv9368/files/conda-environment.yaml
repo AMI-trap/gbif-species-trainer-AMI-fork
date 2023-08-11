@@ -1,0 +1,6 @@
+name: gbif-species-trainer-AMI-fork
+channels:
+  - anaconda
+  - main
+  - conda-forge
+prefix: /Users/lbokeria/miniforge3/envs/gbif-species-trainer-AMI-fork/envs/gbif-species-trainer-AMI-fork

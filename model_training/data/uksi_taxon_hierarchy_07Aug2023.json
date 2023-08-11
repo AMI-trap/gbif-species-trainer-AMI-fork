@@ -1,0 +1,139 @@
+{
+    "Note": "The 0th index is genus and 1st index is family",
+    "Achlya flavicornis": [
+        "Achlya",
+        "Drepanidae"
+    ],
+    "Cilix glaucata": [
+        "Cilix",
+        "Drepanidae"
+    ],
+    "Cymatophorina diluta": [
+        "Cymatophorina",
+        "Drepanidae"
+    ],
+    "Drepana curvatula": [
+        "Drepana",
+        "Drepanidae"
+    ],
+    "Drepana falcataria": [
+        "Drepana",
+        "Drepanidae"
+    ],
+    "Falcaria lacertinaria": [
+        "Falcaria",
+        "Drepanidae"
+    ],
+    "Habrosyne pyritoides": [
+        "Habrosyne",
+        "Drepanidae"
+    ],
+    "Ochropacha duplaris": [
+        "Ochropacha",
+        "Drepanidae"
+    ],
+    "Polyploca ridens": [
+        "Polyploca",
+        "Drepanidae"
+    ],
+    "Sabra harpagula": [
+        "Sabra",
+        "Drepanidae"
+    ],
+    "Tethea ocularis": [
+        "Tethea",
+        "Drepanidae"
+    ],
+    "Tethea or": [
+        "Tethea",
+        "Drepanidae"
+    ],
+    "Tetheella fluctuosa": [
+        "Tetheella",
+        "Drepanidae"
+    ],
+    "Thyatira batis": [
+        "Thyatira",
+        "Drepanidae"
+    ],
+    "Watsonalla binaria": [
+        "Watsonalla",
+        "Drepanidae"
+    ],
+    "Watsonalla cultraria": [
+        "Watsonalla",
+        "Drepanidae"
+    ],
+    "Apoda limacodes": [
+        "Apoda",
+        "Limacodidae"
+    ],
+    "Heterogenea asella": [
+        "Heterogenea",
+        "Limacodidae"
+    ],
+    "Bembecia ichneumoniformis": [
+        "Bembecia",
+        "Sesiidae"
+    ],
+    "Paranthrene tabaniformis": [
+        "Paranthrene",
+        "Sesiidae"
+    ],
+    "Pennisetia hylaeiformis": [
+        "Pennisetia",
+        "Sesiidae"
+    ],
+    "Pyropteron chrysidiformis": [
+        "Pyropteron",
+        "Sesiidae"
+    ],
+    "Synansphecia muscaeformis": [
+        "Synansphecia",
+        "Sesiidae"
+    ],
+    "Sesia apiformis": [
+        "Sesia",
+        "Sesiidae"
+    ],
+    "Sesia bembeciformis": [
+        "Sesia",
+        "Sesiidae"
+    ],
+    "Synanthedon andrenaeformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon culiciformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon flaviventris": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon formicaeformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon myopaeformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon scoliaeformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon spheciformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon tipuliformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ],
+    "Synanthedon vespiformis": [
+        "Synanthedon",
+        "Sesiidae"
+    ]
+}
