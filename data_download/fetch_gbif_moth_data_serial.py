@@ -22,6 +22,16 @@ import math
 import argparse
 from multiprocessing import Pool
 
+def remove_synonyms(data: pd.DataFrame):
+    """removed synonym entries"""
+    
+    # If taxon_data for a specific taxon_key contains synonym entries in addition to
+    # accepted species names remove the synonym entries.
+    if len(data.index) > 1:
+        # Find the synonim rows and remove
+        data = data[data["status"] != "SYNONYM"]
+        
+    return data
 
 def fetch_meta_data(data: pd.DataFrame):
     """returns the relevant metadata for a GBIF observation"""
@@ -57,14 +67,24 @@ def fetch_meta_data(data: pd.DataFrame):
 
 def fetch_image_data(taxon_key: int):
     global existing_data
-
+    
+    print(taxon_key)
+    
     # species not found on gbif
     if taxon_key == -1:
         return
 
     # species avaiable on gbif but data already exists
     elif taxon_key in existing_data["accepted_taxon_key"].tolist():
+        
+        print(taxon_key)
+        
         taxon_data = moth_data[moth_data["accepted_taxon_key"] == taxon_key]
+        
+        # If taxon_data for a specific taxon_key contains synonym entries in addition to
+        # accepted species names remove the synonym entries.
+        taxon_data = remove_synonyms(taxon_data)
+        
         species_name = taxon_data["gbif_species_name"].item()
 
         print(f"Already downloaded for {species_name}.", flush=True)
@@ -75,11 +95,9 @@ def fetch_image_data(taxon_key: int):
         # get taxa information specific to the species
         taxon_data = moth_data[moth_data["accepted_taxon_key"] == taxon_key]
 
-        # If taxon_data contains synonym entries in addition to accepted species names,
-        # remove the synonym entries.
-        if len(taxon_data.index) > 1:
-            # Find the synonim rows and remove
-            taxon_data = taxon_data[taxon_data["status"] != "SYNONYM"]
+        # If taxon_data for a specific taxon_key contains synonym entries in addition to
+        # accepted species names remove the synonym entries.
+        taxon_data = remove_synonyms(taxon_data)
 
         family_name = taxon_data["family_name"].item()
         genus_name = taxon_data["genus_name"].item()

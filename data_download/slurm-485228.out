@@ -9,14 +9,15 @@ Starting reading the multimedia file...
 Finished reading the multimedia...
 Starting reading the occurrence file...
 Finished reading the occurrence file...
+4532253
 Traceback (most recent call last):
   File "02-fetch_gbif_moth_data_wrapper.py", line 111, in <module>
     start_family_loop(args)
   File "02-fetch_gbif_moth_data_wrapper.py", line 69, in start_family_loop
     download_data(args_download_data)
-  File "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/fetch_gbif_moth_data_serial.py", line 217, in download_data
+  File "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/fetch_gbif_moth_data_serial.py", line 220, in download_data
     fetch_image_data(i_taxon_key)
-  File "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/fetch_gbif_moth_data_serial.py", line 68, in fetch_image_data
+  File "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/fetch_gbif_moth_data_serial.py", line 71, in fetch_image_data
     species_name = taxon_data["gbif_species_name"].item()
   File "/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/pandas/core/base.py", line 350, in item
     raise ValueError("can only convert an array of size 1 to a Python scalar")
