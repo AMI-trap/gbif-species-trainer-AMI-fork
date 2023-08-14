@@ -33,5 +33,5 @@ python 02-fetch_gbif_moth_data_wrapper.py \
 
 
 python 03-update_data_statistics.py \
---data_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/erebidae/ \
---species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-small-try-keys-erebidae-amata-phegea.csv
+--data_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/gbif_images/try_wrapper/ \
+--species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv

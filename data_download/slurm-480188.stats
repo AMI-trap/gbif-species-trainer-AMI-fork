@@ -8,3 +8,9 @@
 | Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data_wrapper_erebidae.sh
 | WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download
 +--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Tue Aug  8 02:38:52 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (00:01.965 cputime, 47069432K memory used) - 08:00:27 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:15
++--------------------------------------------------------------------------+

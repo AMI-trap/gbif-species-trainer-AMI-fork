@@ -8,3 +8,9 @@
 | Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data_wrapper_nolidae.sh
 | WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download
 +--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Mon Aug  7 23:21:20 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (00:02.356 cputime, 2688164K memory used) - 02:00:10 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:15
++--------------------------------------------------------------------------+

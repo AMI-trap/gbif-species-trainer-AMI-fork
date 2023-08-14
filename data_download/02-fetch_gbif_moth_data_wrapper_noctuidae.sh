@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 08:00:00
+#SBATCH --time 12:00:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
-#SBATCH --mem=200G
+#SBATCH --mem=300G
 
 # Module loading
 module purge # unloads and loaded modules and resets the environment
@@ -29,5 +29,5 @@ python 02-fetch_gbif_moth_data_wrapper.py \
 --dwca_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/ \
 --species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
 --max_images_per_species 1000 \
---resume_session False \
+--resume_session True \
 --family_name Noctuidae
