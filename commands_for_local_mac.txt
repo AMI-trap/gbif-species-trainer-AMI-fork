@@ -46,9 +46,9 @@ python 02-fetch_gbif_moth_data_wrapper.py \
 --write_directory_images /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/  \
 --dwca_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-data/dwca_files/ \
 --species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
---max_images_per_species 2 \
+--max_images_per_species 100 \
 --resume_session False \
---family_name Sesiidae
+--family_name Limacodidae
 
 
 
@@ -56,61 +56,61 @@ python 02-fetch_gbif_moth_data_wrapper.py \
 
 python 03-update_data_statistics.py \
 --data_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/ \
---species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv
+--species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-drepanidae-sesiidae-limacodidae-keys.csv
 
 
 
 # Model training 
 
 python 01-create_dataset_split.py \
---root_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_new/ \
+--root_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/ \
 --write_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/ \
---species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/keys/uksi-macro-moth_data.csv \
+--species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-drepanidae-sesiidae-limacodidae-keys.csv \
 --train_ratio 0.75 \
 --val_ratio 0.10 \
 --test_ratio 0.15 \
 --filename 01-uksi
 
 python 02-calculate_taxa_statistics.py \
---species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/keys/uksi-macro-moth_data.csv \
+--species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-drepanidae-sesiidae-limacodidae-keys.csv \
 --write_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/ \
---numeric_labels_filename uksi_numeric_labels_30May2023 \
---category_map_filename uksi_category_map_30May2023 \
---taxon_hierarchy_filename uksi_taxon_hierarchy_30May2023 \
---training_points_filename uksi_count_training_points_30May2023 \
+--numeric_labels_filename uksi_numeric_labels_07Aug2023 \
+--category_map_filename uksi_category_map_07Aug2023 \
+--taxon_hierarchy_filename uksi_taxon_hierarchy_07Aug2023 \
+--training_points_filename uksi_count_training_points_07Aug2023 \
 --train_split_file /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/01-uksi_train-split.csv
 
 Creating the webdatasets: 
 
 Train set 
 python 03-create_webdataset.py \
---dataset_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_new/ \
+--dataset_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/ \
 --dataset_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/01-uksi_train-split.csv \
---label_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/uksi_numeric_labels_30May2023.json \
---image_resize 500 \
+--label_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/uksi_numeric_labels_07Aug2023.json \
+--image_resize 300 \
 --webdataset_patern "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/train/train-500-%06d.tar" 
 
 Validation set 
 python 03-create_webdataset.py \
---dataset_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_new/ \
+--dataset_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/ \
 --dataset_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/01-uksi_val-split.csv \
---label_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/uksi_numeric_labels_30May2023.json \
---image_resize 500 \
+--label_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/uksi_numeric_labels_07Aug2023.json \
+--image_resize 300 \
 --webdataset_patern "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/val/val-500-%06d.tar" 
 
 Test set 
 python 03-create_webdataset.py \
---dataset_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/output_data/gbif_data_new/ \
+--dataset_dir /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/ \
 --dataset_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/01-uksi_test-split.csv \
---label_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/uksi_numeric_labels_30May2023.json \
---image_resize 500 \
+--label_filepath /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/data/uksi_numeric_labels_07Aug2023.json \
+--image_resize 300 \
 --webdataset_patern "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/test/test-500-%06d.tar"
 
 
 
 python 04-train_model.py \
---train_webdataset_url "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/train/train-500-{000000..000013}.tar" \
---val_webdataset_url "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/val/val-500-{000000..000002}.tar" \
---test_webdataset_url "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/test/test-500-{000000..000001}.tar" \
---config_file config/01-config_uk-denmark_efficientnet_rep.json \
+--train_webdataset_url "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/train/train-500-{000000..00002}.tar" \
+--val_webdataset_url "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/val/val-500-{000000..000000}.tar" \
+--test_webdataset_url "/Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/model_training/test/test-500-{000000..000000}.tar" \
+--config_file config/01-config_uksi_resnet50.json \
 --dataloader_num_workers 6

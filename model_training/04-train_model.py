@@ -145,7 +145,8 @@ def train_model(args):
 
     # Loading loss function, optimizer, and learning rate scheduler
     loss_func = Loss(loss_name).get_loss()
-    optimizer = Optimizer(optimizer, model, learning_rate, momentum).get_optim()
+    optimizer = Optimizer(optimizer, model, learning_rate,
+                          momentum).get_optim()
     scheduler = LRScheduler(lr_scheduler, optimizer, epochs).get_scheduler()
 
     # Model training
@@ -275,8 +276,9 @@ def train_model(args):
     print(f"Prediction on test data started ...")
 
     with torch.no_grad():
-        for image_batch, label_batch in test_dataloader1:
-            image_batch, label_batch = image_batch.to(device), label_batch.to(device)
+        for image_batch, label_batch in test_dataloader:
+            image_batch, label_batch = image_batch.to(
+                device), label_batch.to(device)
             predictions = model(image_batch)
 
             # micro-accuracy calculation
@@ -301,7 +303,7 @@ def train_model(args):
 
     wandb.log({"final micro accuracy": final_micro_acc})
     wandb.log({"final macro accuracy": final_macro_acc})
-    wandb.log({"taxa accuracy": tax_accuracy})
+    wandb.log({"taxa accuracy": taxa_accuracy})
     wandb.log({"configuration": config_data})
 
     wandb.finish()
