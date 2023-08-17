@@ -55,8 +55,8 @@ python 02-fetch_gbif_moth_data_wrapper.py \
 ## Update the data stats 
 
 python 03-update_data_statistics.py \
---data_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/try_wrapper/ \
---species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-drepanidae-sesiidae-limacodidae-keys.csv
+--data_directory /Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/sandbox/ \
+--species_checklist /Users/lbokeria/Documents/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv
 
 
 
