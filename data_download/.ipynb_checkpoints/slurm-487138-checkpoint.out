@@ -1,0 +1,21 @@
+Miniconda3/4.10.3
+/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/dwca/read.py:203: DtypeWarning: Columns (6,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = read_csv(self.absolute_temporary_path(relative_path), **kwargs)
+/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/dwca/read.py:203: DtypeWarning: Columns (2,9,26,35,39,42,46,47,48,54,56,57,58,59,60,61,62,64,65,66,67,68,69,70,71,74,75,76,77,78,79,81,82,84,85,86,87,88,89,90,91,92,93,94,96,97,98,99,100,101,102,103,109,110,111,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,135,136,142,143,144,145,147,148,149,150,151,155,156,157,158,159,160,161,165,166,167,170,171,172,173,174,175,176,177,178,179,180,181,183,185,186,187,189,190,191,192,193,194,195,201,205,207,208,210,211,212,214,215,217,225,226,227,229,242,243,247,249,250,251,252,253,254,255,256) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = read_csv(self.absolute_temporary_path(relative_path), **kwargs)
+Saved the Noctuidae file.
+Calling the download code
+Starting reading the multimedia file...
+Finished reading the multimedia...
+Starting reading the occurrence file...
+Finished reading the occurrence file...
+Traceback (most recent call last):
+  File "02-fetch_gbif_moth_data_wrapper.py", line 111, in <module>
+    start_family_loop(args)
+  File "02-fetch_gbif_moth_data_wrapper.py", line 69, in start_family_loop
+    download_data(args_download_data)
+  File "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/fetch_gbif_moth_data_serial.py", line 197, in download_data
+    taxon_keys = [int(taxon) for taxon in taxon_keys]
+  File "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/fetch_gbif_moth_data_serial.py", line 197, in <listcomp>
+    taxon_keys = [int(taxon) for taxon in taxon_keys]
+ValueError: invalid literal for int() with base 10: 'Charanyca ferruginea'
