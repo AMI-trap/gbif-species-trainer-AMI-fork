@@ -1,4 +1,6 @@
+./__pycache__/
 data_download/output_data/
+data_download/__pycache__/
 model_training/train/
 model_training/val/
 model_training/test/
