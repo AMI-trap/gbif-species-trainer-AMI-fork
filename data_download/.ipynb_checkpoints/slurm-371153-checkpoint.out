@@ -1,5 +1,0 @@
-Miniconda3/4.10.3
-Traceback (most recent call last):
-  File "02-fetch_gbif_moth_data.py", line 13, in <module>
-    from dwca.read import DwCAReader
-ModuleNotFoundError: No module named 'dwca'

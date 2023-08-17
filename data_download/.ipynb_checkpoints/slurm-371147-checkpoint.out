@@ -1,5 +1,0 @@
-Miniconda3/4.10.3
-Traceback (most recent call last):
-  File "/bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data.py", line 10, in <module>
-    import pygbif
-ModuleNotFoundError: No module named 'pygbif'
