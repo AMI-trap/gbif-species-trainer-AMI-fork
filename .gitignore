@@ -9,3 +9,5 @@ model_training/test/
 ../.DS_Store
 .DS_Store
 ./data_download/.DS_Store
+
+**/*.ipynb_checkpoints/
