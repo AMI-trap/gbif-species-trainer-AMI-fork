@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 12:00:00
+#SBATCH --time 24:00:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
 #SBATCH --mem=300G
