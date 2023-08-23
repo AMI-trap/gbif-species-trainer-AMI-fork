@@ -22,6 +22,7 @@ dependencies:
   - webdataset
   - python-dwca-reader
   - tensorflow
+  - seaborn
   - pip:
     - pygbif
     - torchsummary
