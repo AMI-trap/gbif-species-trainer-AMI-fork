@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Mon Aug 21 18:16:26 2023 for rybf4168(102339)
+| Identity jobid 488857 jobname 02-fetch_gbif_moth_data_wrapper_geometridae.sh
+| Running against project vjgo8416-amber and in partition baskerville-a100_40
+| Requested cpu=36,mem=200G,node=1,billing=36 - 08:00:00 walltime
+| Assigned to nodes bask-pg0308u06a
+| Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data_wrapper_geometridae.sh
+| WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Tue Aug 22 02:16:54 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (00:02.305 cputime, 149345720K memory used) - 08:00:28 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:15
++--------------------------------------------------------------------------+

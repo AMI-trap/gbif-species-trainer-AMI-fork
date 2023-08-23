@@ -29,5 +29,5 @@ python 02-fetch_gbif_moth_data_wrapper.py \
 --dwca_directory /bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/ \
 --species_checklist /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/uksi-macro-moths-keys.csv \
 --max_images_per_species 1000 \
---resume_session False \
+--resume_session True \
 --family_name Pterophoridae

@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Mon Aug 21 18:16:56 2023 for rybf4168(102339)
+| Identity jobid 488866 jobname 02-fetch_gbif_moth_data_wrapper_sesiidae.sh
+| Running against project vjgo8416-amber and in partition baskerville-a100_40
+| Requested cpu=36,mem=10G,node=1,billing=36 - 02:00:00 walltime
+| Assigned to nodes bask-pg0308u24a
+| Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data_wrapper_sesiidae.sh
+| WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Mon Aug 21 19:30:00 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (05:14.241 cputime, 1407348K memory used) - 01:13:04 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+

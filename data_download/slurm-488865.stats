@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Mon Aug 21 18:16:56 2023 for rybf4168(102339)
+| Identity jobid 488865 jobname 02-fetch_gbif_moth_data_wrapper_saturniidae.sh
+| Running against project vjgo8416-amber and in partition baskerville-a100_40
+| Requested cpu=36,mem=200G,node=1,billing=36 - 04:00:00 walltime
+| Assigned to nodes bask-pg0308u12a
+| Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data_wrapper_saturniidae.sh
+| WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Mon Aug 21 18:17:19 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (00:21.462 cputime, 3944K memory used) - 00:00:23 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+

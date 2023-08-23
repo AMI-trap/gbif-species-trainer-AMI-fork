@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Mon Aug 21 18:15:56 2023 for rybf4168(102339)
+| Identity jobid 488853 jobname 02-fetch_gbif_moth_data_wrapper_cossidae.sh
+| Running against project vjgo8416-amber and in partition baskerville-a100_40
+| Requested cpu=36,mem=10G,node=1,billing=36 - 02:00:00 walltime
+| Assigned to nodes bask-pg0309u06a
+| Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download/02-fetch_gbif_moth_data_wrapper_cossidae.sh
+| WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/data_download
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Mon Aug 21 18:24:21 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (00:51.266 cputime, 966136K memory used) - 00:08:25 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+
