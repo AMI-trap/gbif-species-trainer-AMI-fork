@@ -1,6 +1,0 @@
-accepted_taxon_key,order_name,family_name,genus_name,search_species_name,gbif_species_name,confidence,status,match_type,rank,source
-1828637,Lepidoptera,Hepialidae,Hepialus,Hepialus humuli,Hepialus humuli,99,ACCEPTED,EXACT,SPECIES,london31May2023
-7448174,Lepidoptera,Hepialidae,Korscheltellus,Korscheltellus fusconebulosa,Korscheltellus fusconebulosus,97,ACCEPTED,FUZZY,SPECIES,london31May2023
-5879654,Lepidoptera,Hepialidae,Korscheltellus,Korscheltellus lupulina,Korscheltellus lupulina,99,ACCEPTED,EXACT,SPECIES,london31May2023
-4525610,Lepidoptera,Hepialidae,Phymatopus,Phymatopus hecta,Phymatopus hecta,99,ACCEPTED,EXACT,SPECIES,london31May2023
-6097236,Lepidoptera,Hepialidae,Triodia,Triodia sylvina,Triodia sylvina,98,ACCEPTED,EXACT,SPECIES,london31May2023
