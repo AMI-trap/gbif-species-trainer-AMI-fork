@@ -1,0 +1,9 @@
+Miniconda3/4.10.3
+shorten_occurrence.py:57: DtypeWarning: Columns (61,76,180) have mixed types. Specify dtype option on import or set low_memory=False.
+  df1 = pd.read_csv(occurrence_file_path, **kwargs)
+Starting to read...
+Finished reading!
+Traceback (most recent call last):
+  File "shorten_occurrence.py", line 67, in <module>
+    print(sys.getsizeof(occ_df_usecols)/1024/1024)
+NameError: name 'occ_df_usecols' is not defined
