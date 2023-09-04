@@ -1,3 +1,5 @@
+# Scripts to import occurrence files
+
 import os
 import pandas as pd
 import sys
@@ -12,32 +14,10 @@ home_dir = os.path.dirname(os.getcwd())
 # data_dir = "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/"
 data_dir = "/bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/"
 
-family_name = "lepidoptera"
+family_name = "Sesiidae"
 
 dwca_file_path       = os.path.join(data_dir,"dwca_files",family_name+".zip")
 occurrence_file_path = os.path.join(data_dir,"dwca_files",family_name,"occurrence.txt")
-
-# Remove the extra rows and compare the size
-fields_to_keep = [
-    "id",
-    "decimalLatitude",
-    "decimalLongitude",
-    "order",
-    "family",
-    "genus",
-    "species",
-    "acceptedScientificName",
-    "year",
-    "month",
-    "day",
-    "datasetName",
-    "taxonID",
-    "acceptedTaxonKey",
-    "lifeStage",
-    "basisOfRecord",
-]
-
-print("Starting to read...")
 
 
 # Read the occurrence.txt
@@ -50,9 +30,6 @@ with DwCAReader(dwca_file_path) as dwca:
     kwargs['skiprows'] = datafile_descriptor.lines_to_ignore
     kwargs['header'] = None
     kwargs['names'] = datafile_descriptor.short_headers
-    kwargs['parse_dates'] = True
-    kwargs['on_bad_lines'] = "skip"
-    kwargs['usecols'] = fields_to_keep
     
     df1 = pd.read_csv(occurrence_file_path, **kwargs)
     
@@ -61,7 +38,3 @@ with DwCAReader(dwca_file_path) as dwca:
         field_default_value = field['default']
         if field_default_value is not None:
             df1[shorten_term(field['term'])] = field_default_value
-
-print("Finished reading!")
-
-print(sys.getsizeof(df1)/1024/1024)
