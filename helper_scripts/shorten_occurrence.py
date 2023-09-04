@@ -12,10 +12,12 @@ home_dir = os.path.dirname(os.getcwd())
 # data_dir = "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/"
 data_dir = "/bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/"
 
-family_name = "lepidoptera"
+family_name_small = "Sesiidae"
+family_name_big = "Drepanidae"
 
-dwca_file_path       = os.path.join(data_dir,"dwca_files",family_name+".zip")
-occurrence_file_path = os.path.join(data_dir,"dwca_files",family_name,"occurrence.txt")
+dwca_file_path_small = os.path.join(data_dir,"dwca_files",family_name_small+".zip")
+dwca_file_path_big   = os.path.join(data_dir,"dwca_files",family_name_big+".zip")
+occurrence_file_path = os.path.join(data_dir,"dwca_files",family_name_big,"occurrence.txt")
 
 # Remove the extra rows and compare the size
 fields_to_keep = [
@@ -39,13 +41,16 @@ fields_to_keep = [
 
 print("Starting to read...")
 
+# Read the datafile descriptors for the smalle one
+with DwCAReader(dwca_file_path_small) as dwca:
+    # Get the file descriptor
+    datafile_descriptor = dwca.get_descriptor_for("occurrence.txt")
+
 
 # Read the occurrence.txt
 kwargs = {}
-with DwCAReader(dwca_file_path) as dwca:
-    # Get the file descriptor
-    datafile_descriptor = dwca.get_descriptor_for("occurrence.txt")
-    
+with DwCAReader(dwca_file_path_big) as dwca:
+        
     kwargs['delimiter'] = datafile_descriptor.fields_terminated_by
     kwargs['skiprows'] = datafile_descriptor.lines_to_ignore
     kwargs['header'] = None
@@ -54,14 +59,17 @@ with DwCAReader(dwca_file_path) as dwca:
     kwargs['on_bad_lines'] = "skip"
     kwargs['usecols'] = fields_to_keep
     
-    df1 = pd.read_csv(occurrence_file_path, **kwargs)
+    occ_df = pd.read_csv(occurrence_file_path, **kwargs)
     
     # Add a column for default values, if present in the file descriptor
     for field in datafile_descriptor.fields:
         field_default_value = field['default']
         if field_default_value is not None:
-            df1[shorten_term(field['term'])] = field_default_value
+            occ_df[shorten_term(field['term'])] = field_default_value
 
 print("Finished reading!")
 
-print(sys.getsizeof(df1)/1024/1024)
+print(sys.getsizeof(occ_df)/1024/1024)
+
+# Now, save the DF
+occ_df.to_csv(os.path.join(data_dir,"occurrence"+family_name_big+".csv"))
