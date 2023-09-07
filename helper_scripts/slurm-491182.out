@@ -1,6 +1,0 @@
-Miniconda3/4.10.3
-/bask/projects/v/vjgo8416-amber/conda_envs/gbif-species-trainer-AMI-fork/lib/python3.8/site-packages/dwca/read.py:203: DtypeWarning: Columns (61,76,180) have mixed types. Specify dtype option on import or set low_memory=False.
-  df = read_csv(self.absolute_temporary_path(relative_path), **kwargs)
-Starting to read...
-Finished reading!
-85.77149105072021

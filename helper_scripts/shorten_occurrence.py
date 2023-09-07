@@ -9,11 +9,11 @@ from dwca.darwincore.utils import qualname as qn
 
 # Define variables
 home_dir = os.path.dirname(os.getcwd())
-# data_dir = "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/"
-data_dir = "/bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/"
+data_dir = "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/"
+# data_dir = "/bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/"
 
 family_name_small = "Sesiidae"
-family_name_big = "lepidoptera"
+family_name_big = "Drepanidae"
 
 dwca_file_path_small = os.path.join(data_dir,"dwca_files",family_name_small+".zip")
 dwca_file_path_big   = os.path.join(data_dir,"dwca_files",family_name_big+".zip")
@@ -57,7 +57,7 @@ kwargs['names'] = datafile_descriptor.short_headers
 kwargs['parse_dates'] = True
 kwargs['on_bad_lines'] = "skip"
 kwargs['usecols'] = fields_to_keep
-kwargs['chunksize'] = 500000
+kwargs['chunksize'] = 1000
 
 occ_df = []
 
@@ -88,4 +88,4 @@ print("Finished reading!")
 print(sys.getsizeof(occ_df)/1024/1024)
 
 # Now, save the DF
-occ_df.to_csv(os.path.join(data_dir,"dwca_files","occurrence_"+family_name_big+"_chunks.csv"))
+occ_df.to_csv(os.path.join(data_dir,"dwca_files","occurrence_"+family_name_big+".csv"),index=False)
