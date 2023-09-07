@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Mon Sep  4 14:26:40 2023 for rybf4168(102339)
+| Identity jobid 494488 jobname shorten_occurrence.sh
+| Running against project vjgo8416-amber and in partition baskerville-a100_40
+| Requested cpu=36,mem=400G,node=1,billing=36 - 04:00:00 walltime
+| Assigned to nodes bask-pg0309u04a
+| Command /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/helper_scripts/shorten_occurrence.sh
+| WorkDir /bask/projects/v/vjgo8416-amber/projects/gbif-species-trainer-AMI-fork/helper_scripts
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Mon Sep  4 14:31:01 2023 for rybf4168(102339) on the Baskerville Cluster
+| Required (04:15.601 cputime, 141292K memory used) - 00:04:21 walltime
+| JobState COMPLETING - Reason NonZeroExitCode
+| Exitcode 1:0
++--------------------------------------------------------------------------+
